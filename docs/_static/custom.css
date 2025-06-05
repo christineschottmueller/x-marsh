@@ -5,12 +5,6 @@ body {
 }
 
 
-/* Change background color of the logo container */
-.wy-side-nav-search .wy-side-nav-search-logo {
-    background-color: #f0f0f0;  /* light grey background */
-    padding: 10px;  /* optional */
-}
-
 /* Resize the logo */
 .wy-side-nav-search .wy-side-nav-search-logo img {
     width: 60%;  /* or use 100px for a fixed size */
@@ -28,5 +22,5 @@ body {
 }
 
 .wy-nav-top{
-   background-color: #740041;
+   background-color: #FBFBFB;
 }
