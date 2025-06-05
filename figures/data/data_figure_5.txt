@@ -1,0 +1,652 @@
+slr_select	z_init	c_flood	c_flood_nourishment	nourishment_frequency	rho_deposit	s_subsidence	fd	crit_year	growth_total	end_dist	slope_norm	slope_norm_10	est_time	est_crit_year	class	Policy Combined
+mean	0.7	0.05	0.0	1	400	0.005	0.4	2089	-0.063	0.004	-0.021	-0.027	8.707	2089.0	1.0	No nourishment | Conservation
+low	0.7	0.05	0.0	1	800	0.003	0.4	2101	-0.094	0.117	-0.014	-0.014	14.779	2116.0	2.0	No nourishment | Conservation
+mean	0.7	0.05	0.0	1	800	0.003	0.4	2078	-0.277	0.001	-0.027	-0.03	10.358	2078.0	1.0	No nourishment | Conservation
+low	0.7	0.05	0.0	1	800	0.005	0.4	2101	-0.199	0.012	-0.017	-0.016	1.314	2102.0	2.0	No nourishment | Conservation
+mean	0.7	0.05	0.0	1	800	0.005	0.4	2074	-0.382	0.0	-0.03	-0.031	10.51	2074.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	400	0.005	0.4	2068	-0.241	0.006	-0.037			2068.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	800	0.003	0.4	2062	-0.5	0.019	-0.047			2062.0	1.0	No nourishment | Conservation
+mean	0.7	0.05	0.0	1	1200	0.005	0.4	2070	-0.528	0.007	-0.034			2070.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	1200	0.005	0.4	2058	-0.769	0.018	-0.059			2058.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	800	0.003	0.6	2066	-0.31	0.013	-0.04			2066.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.0	1	800	0.005	0.6	2064	-0.402	0.009	-0.044			2064.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.0	1	1200	0.003	0.6	2062	-0.5	0.019	-0.047			2062.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.0	1	1200	0.005	0.6	2060	-0.605	0.02	-0.053			2060.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.3	10	1200	0.003	0.4	2062	-0.528	0.019	-0.048			2062.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	800	0.005	0.4	2079	-0.234	0.006	-0.025	-0.028	10.287	2079.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	10	1200	0.005	0.4	2059	-0.634	0.018	-0.054			2059.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	5	1200	0.003	0.4	2068	-0.253	0.01	-0.036			2068.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	5	1200	0.005	0.4	2064	-0.34	0.028	-0.04			2064.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	10	800	0.003	0.4	2067	-0.252	0.016	-0.035			2067.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	10	800	0.005	0.4	2065	-0.34	0.022	-0.039			2065.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.3	5	1200	0.003	0.4	2070	-0.178	0.009	-0.034			2070.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.3	5	1200	0.005	0.4	2067	-0.261	0.02	-0.037			2067.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.3	1	800	0.003	0.4	2101	0.532	0.743	0.002	-0.008	158.035	2259.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.3	1	800	0.003	0.4	2101	0.45	0.342	-0.008	-0.024	28.651	2130.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.3	1	800	0.003	0.4	2095	0.352	0.007	-0.021	-0.045	8.769	2095.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.3	1	800	0.005	0.4	2101	0.488	0.699	0.001	-0.009	140.598	2242.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.3	1	800	0.005	0.4	2101	0.408	0.3	-0.009	-0.025	24.741	2126.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.3	1	800	0.005	0.4	2093	0.313	0.009	-0.022	-0.045	8.495	2093.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.3	1	1200	0.003	0.4	2101	0.414	0.624	0.0	-0.007	146.038	2247.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.3	1	1200	0.003	0.4	2101	0.312	0.204	-0.011	-0.024	17.364	2118.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.3	1	1200	0.003	0.4	2085	0.188	0.013	-0.023	-0.03	14.525	2085.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.3	1	1200	0.005	0.4	2101	0.359	0.569	-0.001	-0.008	124.447	2225.0	4.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.3	1	1200	0.005	0.4	2082	0.135	0.013	-0.024	-0.029	14.976	2082.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.3	5	400	0.003	0.4	2101	0.405	0.615	0.0	-0.009	112.929	2214.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	400	0.003	0.4	2101	0.3	0.192	-0.01	-0.027	14.418	2115.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	5	400	0.003	0.4	2085	0.173	0.008	-0.022	-0.036	12.018	2085.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.3	5	400	0.005	0.4	2101	0.348	0.559	-0.001	-0.01	93.621	2195.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	400	0.005	0.4	2101	0.245	0.138	-0.012	-0.028	9.946	2111.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	5	400	0.005	0.4	2083	0.118	0.01	-0.022	-0.024	16.121	2083.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.0	1	400	0.003	0.4	2101	0.164	0.374	-0.007	-0.009	73.462	2174.0	4.0	No nourishment | Conservation
+mean	0.7	0.05	0.0	1	400	0.003	0.4	2094	0.018	0.009	-0.019	-0.024	9.876	2094.0	1.0	No nourishment | Conservation
+low	0.7	0.05	0.0	1	1200	0.003	0.4	2100	-0.214	0.007	-0.017	-0.019	9.127	2100.0	1.0	No nourishment | Conservation
+mean	0.7	0.05	0.0	1	1200	0.003	0.4	2073	-0.413	0.011	-0.031	-0.031	11.399	2073.0	1.0	No nourishment | Conservation
+low	0.7	0.05	0.0	1	1200	0.005	0.4	2091	-0.329	0.001	-0.02	-0.022	9.624	2091.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	800	0.005	0.4	2060	-0.605	0.02	-0.053			2060.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.0	1	1200	0.003	0.4	2060	-0.655	0.014	-0.054			2060.0	1.0	No nourishment | Conservation
+low	0.7	0.05	0.3	5	800	0.003	0.4	2101	0.144	0.355	-0.006	-0.011	58.015	2159.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	800	0.003	0.4	2093	-0.004	0.018	-0.019	-0.023	10.744	2093.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	10	1200	0.005	0.6	2064	-0.437	0.002	-0.045			2064.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	800	0.005	0.4	2101	0.062	0.272	-0.009	-0.012	38.655	2140.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	800	0.005	0.4	2088	-0.087	0.012	-0.021	-0.025	9.488	2088.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.3	5	1200	0.005	0.4	2101	-0.109	0.102	-0.014	-0.015	11.627	2113.0	2.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	1200	0.005	0.4	2078	-0.28	0.001	-0.027	-0.028	10.438	2078.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.3	10	400	0.003	0.4	2101	0.295	0.506	-0.002	-0.014	63.283	2164.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	400	0.003	0.4	2101	0.172	0.064	-0.014	-0.034	3.8	2105.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	10	400	0.003	0.4	2078	0.019	0.007	-0.024	-0.025	13.732	2078.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.3	10	400	0.005	0.4	2101	0.227	0.438	-0.004	-0.016	48.395	2149.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	400	0.005	0.4	2100	0.104	0.018	-0.016	-0.025	10.214	2100.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	10	400	0.005	0.4	2076	-0.048	0.005	-0.027	-0.021	15.042	2076.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.3	10	1200	0.003	0.4	2101	-0.116	0.095	-0.014	-0.018	9.122	2110.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	1200	0.003	0.4	2077	-0.302	0.005	-0.027	-0.027	11.373	2077.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.3	10	1200	0.005	0.4	2100	-0.222	0.002	-0.017	-0.021	7.43	2100.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	1200	0.005	0.4	2073	-0.408	0.019	-0.03	-0.031	11.576	2073.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.3	1	800	0.003	0.6	2101	0.624	0.834	0.003	-0.009	159.445	2260.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.3	1	800	0.003	0.6	2101	0.555	0.448	-0.007	-0.025	36.332	2137.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.3	10	1200	0.003	0.4	2067	-0.278	0.005	-0.038			2067.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	1	800	0.003	0.6	2100	0.476	0.025	-0.022	-0.035	15.087	2100.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.3	1	800	0.005	0.6	2101	0.587	0.798	0.002	-0.01	145.367	2246.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.3	1	800	0.005	0.6	2101	0.521	0.414	-0.008	-0.025	33.277	2134.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.05	0.3	1	800	0.005	0.6	2099	0.446	0.025	-0.022	-0.038	13.482	2099.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.3	1	1200	0.003	0.6	2101	0.532	0.743	0.002	-0.008	158.035	2259.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.3	1	1200	0.003	0.6	2101	0.45	0.342	-0.008	-0.024	28.651	2130.0	3.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.0	1	400	0.003	0.6	2101	0.32	0.531	-0.003	-0.007	120.014	2221.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	400	0.003	0.6	2101	0.201	0.094	-0.014	-0.024	7.677	2109.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.0	1	400	0.003	0.6	2079	0.055	0.01	-0.026	-0.031	12.654	2079.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.0	1	400	0.005	0.6	2101	0.255	0.465	-0.004	-0.008	95.889	2197.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	400	0.005	0.6	2101	0.136	0.029	-0.016	-0.025	2.288	2103.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.05	0.0	1	400	0.005	0.6	2076	-0.01	0.018	-0.028	-0.03	12.304	2076.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.0	1	800	0.003	0.6	2101	0.051	0.262	-0.01	-0.011	42.977	2144.0	3.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	800	0.003	0.6	2086	-0.111	0.0	-0.023	-0.027	9.29	2086.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.0	1	800	0.005	0.6	2101	-0.041	0.17	-0.012	-0.012	24.027	2125.0	2.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	800	0.005	0.6	2080	-0.203	0.013	-0.025	-0.028	11.399	2080.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.0	1	1200	0.003	0.6	2101	-0.094	0.117	-0.014	-0.014	14.779	2116.0	2.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	1200	0.003	0.6	2078	-0.277	0.001	-0.027	-0.03	10.358	2078.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.5	5	800	0.005	0.4	2101	0.183	0.394	-0.005	-0.012	59.882	2161.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.5	5	800	0.005	0.4	2098	0.053	0.024	-0.017	-0.019	13.276	2098.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	5	800	0.005	0.4	2073	-0.107	0.018	-0.029	-0.026	13.869	2073.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.0	1	1200	0.005	0.6	2101	-0.199	0.012	-0.017	-0.016	1.314	2102.0	2.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.0	1	1200	0.005	0.6	2074	-0.382	0.0	-0.03	-0.031	10.51	2074.0	1.0	No Nourishment | Marsh Restoration
+mean	0.7	0.05	0.3	5	400	0.003	0.6	2101	0.439	0.332	-0.007	-0.026	24.567	2126.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	400	0.003	0.6	2095	0.339	0.005	-0.02	-0.047	8.828	2095.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	400	0.005	0.6	2101	0.479	0.69	0.001	-0.011	109.522	2211.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	5	400	0.005	0.6	2101	0.396	0.289	-0.008	-0.027	20.734	2122.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	400	0.005	0.6	2093	0.298	0.025	-0.02	-0.039	9.43	2093.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	800	0.003	0.6	2101	0.303	0.513	-0.002	-0.009	94.43	2195.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	5	800	0.003	0.6	2101	0.181	0.073	-0.014	-0.028	5.382	2106.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	800	0.003	0.6	2078	0.031	0.025	-0.025	-0.026	14.895	2078.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	1200	0.005	0.6	2101	0.062	0.272	-0.009	-0.012	38.655	2140.0	3.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	5	1200	0.005	0.6	2088	-0.087	0.012	-0.021	-0.025	9.488	2088.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	400	0.003	0.6	2101	0.435	0.646	0.001	-0.014	79.934	2181.0	4.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	800	0.003	0.4	2070	-0.186	0.002	-0.034			2070.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	5	800	0.005	0.4	2067	-0.268	0.02	-0.037			2067.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	5	1200	0.003	0.4	2064	-0.393	0.015	-0.042			2064.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	5	1200	0.005	0.4	2062	-0.49	0.021	-0.047			2062.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.3	10	800	0.003	0.4	2065	-0.344	0.023	-0.04			2065.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	10	800	0.005	0.4	2064	-0.437	0.002	-0.045			2064.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	5	1200	0.003	0.6	2070	-0.186	0.002	-0.034			2070.0	1.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	1200	0.005	0.6	2067	-0.268	0.02	-0.037			2067.0	1.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	10	800	0.005	0.6	2068	-0.212	0.015	-0.034			2068.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.3	10	1200	0.003	0.6	2065	-0.344	0.023	-0.04			2065.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.5	10	1200	0.003	0.6	2067	-0.252	0.016	-0.035			2067.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.5	10	1200	0.005	0.6	2065	-0.34	0.022	-0.039			2065.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.0	1	800	0.005	0.4	2068	-0.241	0.006	-0.037			2068.0	1.0	No nourishment | Conservation
+high	0.7	0.1	0.3	10	1200	0.005	0.4	2065	-0.367	0.005	-0.042			2065.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	400	0.003	0.6	2101	0.335	0.227	-0.009	-0.033	13.574	2115.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.3	10	400	0.003	0.6	2088	0.214	0.014	-0.02	-0.027	13.603	2088.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	400	0.005	0.6	2101	0.381	0.592	0.0	-0.015	65.168	2166.0	3.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	800	0.005	0.6	2101	0.105	0.316	-0.007	-0.016	33.402	2134.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.3	10	800	0.005	0.6	2090	-0.037	0.007	-0.019	-0.029	9.151	2090.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	1200	0.003	0.6	2101	0.026	0.237	-0.01	-0.016	25.851	2127.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.3	10	1200	0.003	0.6	2085	-0.14	0.008	-0.022	-0.023	11.197	2085.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	1200	0.005	0.6	2101	-0.068	0.143	-0.012	-0.019	13.505	2115.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.3	10	1200	0.005	0.6	2079	-0.234	0.006	-0.025	-0.028	10.287	2079.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	1	800	0.003	0.4	2101	0.631	0.842	0.003	-0.009	160.652	2262.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.5	1	800	0.003	0.4	2101	0.563	0.456	-0.007	-0.025	36.888	2138.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.5	1	800	0.003	0.4	2101	0.485	0.006	-0.023	-0.053	0.295	2101.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.5	1	800	0.005	0.4	2101	0.594	0.805	0.002	-0.01	145.305	2246.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.5	1	800	0.005	0.4	2101	0.53	0.423	-0.008	-0.026	33.963	2135.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.5	1	800	0.005	0.4	2100	0.456	0.006	-0.023	-0.036	13.768	2100.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.5	1	1200	0.003	0.4	2101	0.541	0.752	0.002	-0.008	159.103	2260.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.5	1	1200	0.003	0.4	2101	0.46	0.353	-0.008	-0.025	29.46	2130.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.5	1	1200	0.003	0.4	2095	0.365	0.02	-0.021	-0.046	9.434	2095.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.5	1	1200	0.005	0.4	2101	0.498	0.708	0.001	-0.009	141.054	2242.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.05	0.5	1	1200	0.005	0.4	2101	0.419	0.312	-0.009	-0.025	25.691	2127.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.05	0.5	1	1200	0.005	0.4	2094	0.326	0.003	-0.022	-0.047	8.185	2094.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.5	5	800	0.003	0.4	2101	0.255	0.465	-0.003	-0.01	80.228	2181.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.5	5	800	0.003	0.4	2101	0.125	0.017	-0.016	-0.029	1.205	2102.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	5	800	0.003	0.4	2075	-0.036	0.006	-0.027	-0.037	10.861	2075.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.5	5	1200	0.003	0.4	2101	0.094	0.305	-0.008	-0.012	45.31	2146.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.5	5	1200	0.003	0.4	2089	-0.062	0.016	-0.02	-0.024	9.61	2089.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.5	5	1200	0.005	0.4	2101	0.007	0.217	-0.01	-0.014	27.919	2129.0	2.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	1	1200	0.005	0.4	2101	0.258	0.151	-0.013	-0.025	12.555	2114.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.3	5	1200	0.003	0.4	2101	-0.012	0.199	-0.011	-0.013	26.42	2127.0	2.0	Nourishment (5 years) | Conservation
+mean	0.7	0.05	0.3	5	1200	0.003	0.4	2082	-0.183	0.016	-0.024	-0.027	10.968	2082.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.05	0.3	10	800	0.003	0.4	2101	0.026	0.237	-0.01	-0.016	25.851	2127.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.3	10	800	0.003	0.4	2085	-0.14	0.008	-0.022	-0.023	11.197	2085.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.3	10	800	0.005	0.4	2101	-0.068	0.143	-0.012	-0.019	13.505	2115.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.3	1	1200	0.003	0.6	2095	0.352	0.007	-0.021	-0.045	8.769	2095.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.3	1	1200	0.005	0.6	2101	0.488	0.699	0.001	-0.009	140.598	2242.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.3	1	1200	0.005	0.6	2101	0.408	0.3	-0.009	-0.025	24.741	2126.0	2.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.05	0.3	1	1200	0.005	0.6	2093	0.313	0.009	-0.022	-0.045	8.495	2093.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.3	5	400	0.003	0.6	2101	0.525	0.735	0.002	-0.01	126.638	2228.0	4.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	800	0.005	0.6	2101	0.236	0.447	-0.004	-0.011	73.364	2174.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	5	800	0.005	0.6	2101	0.114	0.007	-0.016	-0.029	0.484	2101.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.3	5	800	0.005	0.6	2075	-0.036	0.003	-0.027	-0.036	10.802	2075.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.3	5	1200	0.003	0.6	2101	0.144	0.355	-0.006	-0.011	58.015	2159.0	3.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	5	1200	0.003	0.6	2093	-0.004	0.018	-0.019	-0.023	10.744	2093.0	1.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.3	10	400	0.005	0.6	2101	0.283	0.175	-0.01	-0.035	9.899	2111.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.3	10	400	0.005	0.6	2086	0.163	0.009	-0.021	-0.019	20.182	2086.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.3	10	800	0.003	0.6	2101	0.184	0.395	-0.005	-0.014	47.807	2149.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.3	10	800	0.003	0.6	2097	0.042	0.016	-0.017	-0.018	12.961	2097.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.3	10	800	0.003	0.6	2073	-0.133	0.013	-0.031	-0.031	11.765	2073.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	400	0.003	0.4	2101	0.362	0.572	0.0	-0.016	61.035	2162.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	400	0.003	0.4	2101	0.249	0.142	-0.011	-0.037	7.619	2109.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	10	400	0.003	0.4	2084	0.111	0.017	-0.021	-0.02	19.596	2084.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.5	10	400	0.005	0.4	2101	0.3	0.511	-0.001	-0.018	48.045	2149.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	400	0.005	0.4	2101	0.189	0.082	-0.013	-0.04	4.12	2105.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	10	400	0.005	0.4	2079	0.051	0.024	-0.022	-0.039	7.381	2079.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.5	10	800	0.003	0.4	2101	0.095	0.306	-0.007	-0.017	30.925	2132.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	800	0.003	0.4	2089	-0.061	0.013	-0.02	-0.031	6.186	2089.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.5	10	800	0.005	0.4	2101	0.008	0.218	-0.01	-0.02	19.189	2120.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	800	0.005	0.4	2085	-0.148	0.011	-0.022	-0.02	12.58	2085.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	1200	0.005	0.4	2076	-0.335	0.002	-0.028	-0.025	11.724	2076.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	1	800	0.005	0.6	2101	0.555	0.076	-0.024	-0.052	3.63	2105.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.5	1	1200	0.003	0.6	2101	0.631	0.842	0.003	-0.009	160.652	2262.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.5	1	1200	0.003	0.6	2101	0.563	0.456	-0.007	-0.025	36.888	2138.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.05	0.5	1	1200	0.003	0.6	2101	0.485	0.006	-0.023	-0.053	0.295	2101.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.5	1	1200	0.005	0.6	2101	0.594	0.805	0.002	-0.01	145.305	2246.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.5	1	1200	0.005	0.6	2101	0.53	0.423	-0.008	-0.026	33.963	2135.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.05	0.5	1	1200	0.005	0.6	2100	0.456	0.006	-0.023	-0.036	13.768	2100.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.5	5	800	0.003	0.6	2101	0.403	0.613	0.001	-0.01	107.459	2208.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.5	5	800	0.003	0.6	2101	0.298	0.19	-0.01	-0.028	13.885	2115.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.5	5	800	0.003	0.6	2085	0.17	0.015	-0.021	-0.037	11.965	2085.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.5	5	800	0.005	0.6	2101	0.346	0.557	-0.001	-0.011	88.637	2190.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.5	5	800	0.005	0.6	2101	0.243	0.135	-0.012	-0.029	9.497	2110.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.5	5	800	0.005	0.6	2083	0.116	0.014	-0.022	-0.023	17.334	2083.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.5	5	1200	0.003	0.6	2101	0.255	0.465	-0.003	-0.01	80.228	2181.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.5	5	1200	0.003	0.6	2101	0.125	0.017	-0.016	-0.029	1.205	2102.0	2.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	400	0.003	0.6	2101	0.397	0.29	-0.007	-0.037	15.476	2116.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.5	10	400	0.003	0.6	2094	0.287	0.025	-0.018	-0.034	11.587	2094.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	400	0.005	0.6	2101	0.441	0.651	0.002	-0.018	59.923	2161.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	400	0.005	0.6	2101	0.351	0.243	-0.008	-0.039	12.216	2113.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.0	1	400	0.003	0.4	2101	0.318	0.21	-0.011	-0.023	17.615	2119.0	2.0	No nourishment | Conservation
+high	0.7	0.1	0.0	1	400	0.003	0.4	2086	0.194	0.006	-0.023	-0.03	13.099	2086.0	1.0	No nourishment | Conservation
+low	0.7	0.1	0.0	1	400	0.005	0.4	2101	0.365	0.575	-0.002	-0.008	120.886	2222.0	4.0	No nourishment | Conservation
+mean	0.7	0.05	0.5	5	1200	0.005	0.4	2084	-0.149	0.004	-0.023	-0.025	10.085	2084.0	1.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.0	1	400	0.005	0.4	2101	0.264	0.157	-0.013	-0.023	12.872	2114.0	2.0	No nourishment | Conservation
+high	0.7	0.1	0.0	1	400	0.005	0.4	2083	0.141	0.007	-0.024	-0.029	13.696	2083.0	1.0	No nourishment | Conservation
+mean	0.7	0.1	0.0	1	800	0.003	0.4	2094	0.018	0.009	-0.019	-0.024	9.876	2094.0	1.0	No nourishment | Conservation
+high	0.7	0.1	0.0	1	800	0.003	0.4	2071	-0.16	0.008	-0.034	-0.031	12.061	2071.0	1.0	No nourishment | Conservation
+low	0.7	0.1	0.0	1	800	0.005	0.4	2101	0.083	0.293	-0.009	-0.01	50.248	2151.0	3.0	No nourishment | Conservation
+mean	0.7	0.1	0.0	1	800	0.005	0.4	2089	-0.063	0.004	-0.021	-0.027	8.707	2089.0	1.0	No nourishment | Conservation
+low	0.7	0.1	0.0	1	1200	0.003	0.4	2101	0.007	0.218	-0.011	-0.011	33.032	2134.0	3.0	No nourishment | Conservation
+mean	0.7	0.1	0.0	1	800	0.003	0.6	2101	0.201	0.094	-0.014	-0.024	7.677	2109.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.0	1	800	0.003	0.6	2079	0.055	0.01	-0.026	-0.031	12.654	2079.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.0	1	800	0.005	0.6	2101	0.255	0.465	-0.004	-0.008	95.889	2197.0	4.0	No Nourishment | Marsh Restoration
+low	0.7	0.05	0.5	10	1200	0.003	0.4	2101	-0.056	0.154	-0.012	-0.019	14.278	2115.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.05	0.5	10	1200	0.003	0.4	2079	-0.234	0.01	-0.025	-0.028	10.575	2079.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.5	10	1200	0.005	0.4	2101	-0.157	0.053	-0.015	-0.022	4.275	2105.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.0	1	800	0.005	0.6	2101	0.136	0.029	-0.016	-0.025	2.288	2103.0	2.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.3	1	800	0.003	0.4	2101	0.571	0.782	0.002	-0.008	158.382	2259.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.3	1	800	0.003	0.4	2101	0.493	0.386	-0.007	-0.024	31.742	2133.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.3	1	800	0.003	0.4	2098	0.404	0.005	-0.022	-0.04	10.72	2098.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.3	1	800	0.005	0.4	2101	0.529	0.74	0.001	-0.009	143.421	2244.0	4.0	Nourishment (annual) | Conservation
+low	0.7	0.05	0.5	1	800	0.003	0.6	2101	0.701	0.912	0.002	-0.01	158.383	2259.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.5	1	800	0.003	0.6	2101	0.643	0.536	-0.007	-0.025	42.577	2144.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.05	0.5	1	800	0.003	0.6	2101	0.577	0.099	-0.023	-0.052	4.71	2106.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.05	0.5	1	800	0.005	0.6	2101	0.672	0.882	0.001	-0.01	151.371	2252.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.05	0.5	1	800	0.005	0.6	2101	0.614	0.507	-0.008	-0.026	39.98	2141.0	3.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.3	1	800	0.005	0.4	2101	0.456	0.349	-0.008	-0.025	28.439	2129.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.0	1	1200	0.005	0.4	2063	-0.465	0.003	-0.047			2063.0	1.0	No nourishment | Conservation
+high	0.7	0.1	0.3	1	800	0.005	0.4	2096	0.369	0.0	-0.022	-0.044	9.09	2096.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.3	1	1200	0.003	0.4	2101	0.463	0.674	0.001	-0.008	152.995	2254.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.3	1	1200	0.003	0.4	2101	0.369	0.262	-0.01	-0.024	22.187	2123.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.3	1	1200	0.003	0.4	2090	0.257	0.012	-0.022	-0.038	9.419	2090.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.3	1	1200	0.005	0.4	2101	0.412	0.623	0.0	-0.008	131.906	2233.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.3	1	1200	0.005	0.4	2101	0.32	0.213	-0.011	-0.025	17.74	2119.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.3	1	1200	0.005	0.4	2087	0.209	0.005	-0.023	-0.033	12.032	2087.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.3	5	400	0.003	0.4	2101	0.527	0.738	0.002	-0.009	134.922	2236.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.3	5	400	0.003	0.4	2101	0.442	0.335	-0.008	-0.025	25.719	2127.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.3	5	400	0.003	0.4	2095	0.342	0.002	-0.02	-0.041	8.204	2095.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.3	5	400	0.005	0.4	2101	0.482	0.693	0.001	-0.01	117.562	2219.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.3	5	400	0.005	0.4	2101	0.4	0.292	-0.009	-0.026	21.843	2123.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.3	5	400	0.005	0.4	2093	0.302	0.019	-0.02	-0.04	9.018	2093.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.3	5	800	0.003	0.4	2101	0.307	0.518	-0.002	-0.009	101.722	2203.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.3	5	800	0.003	0.4	2101	0.186	0.079	-0.014	-0.026	5.994	2107.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	5	1200	0.003	0.6	2075	-0.036	0.006	-0.027	-0.037	10.861	2075.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.5	5	1200	0.005	0.6	2101	0.183	0.394	-0.005	-0.012	59.882	2161.0	3.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.05	0.5	5	1200	0.005	0.6	2098	0.053	0.024	-0.017	-0.019	13.276	2098.0	1.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.05	0.5	5	1200	0.005	0.6	2073	-0.107	0.018	-0.029	-0.026	13.869	2073.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	400	0.003	0.6	2101	0.49	0.7	0.003	-0.016	72.407	2173.0	4.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	800	0.003	0.4	2078	0.037	0.026	-0.025	-0.028	14.463	2078.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.3	5	800	0.005	0.4	2101	0.241	0.452	-0.004	-0.01	79.637	2181.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.3	5	800	0.005	0.4	2101	0.12	0.013	-0.016	-0.028	0.932	2102.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.3	5	800	0.005	0.4	2075	-0.029	0.0	-0.027	-0.034	11.157	2075.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.3	5	1200	0.003	0.4	2101	0.15	0.361	-0.006	-0.01	62.431	2163.0	3.0	Nourishment (5 years) | Conservation
+high	0.7	0.05	0.5	10	400	0.005	0.6	2090	0.243	0.02	-0.019	-0.05	8.676	2090.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	800	0.003	0.6	2101	0.255	0.466	-0.003	-0.016	49.555	2151.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	800	0.003	0.6	2101	0.125	0.017	-0.015	-0.038	0.912	2102.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.5	10	800	0.003	0.6	2076	-0.036	0.018	-0.025	-0.018	19.13	2076.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	800	0.005	0.6	2101	0.183	0.394	-0.004	-0.019	36.731	2138.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	800	0.005	0.6	2098	0.053	0.014	-0.016	-0.017	13.638	2098.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.3	5	1200	0.005	0.4	2101	0.068	0.278	-0.009	-0.012	41.918	2143.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.3	5	1200	0.005	0.4	2088	-0.08	0.013	-0.021	-0.026	9.548	2088.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.3	10	400	0.003	0.4	2101	0.474	0.685	0.001	-0.011	102.241	2203.0	4.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	10	800	0.005	0.6	2074	-0.108	0.017	-0.029	-0.023	15.43	2074.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	1200	0.003	0.6	2101	0.095	0.306	-0.007	-0.017	30.925	2132.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	1200	0.003	0.6	2089	-0.061	0.013	-0.02	-0.031	6.186	2089.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.05	0.5	10	1200	0.005	0.6	2101	0.008	0.218	-0.01	-0.02	19.189	2120.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.05	0.5	10	1200	0.005	0.6	2085	-0.148	0.011	-0.022	-0.02	12.58	2085.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	400	0.003	0.4	2101	0.38	0.273	-0.009	-0.028	18.428	2119.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.3	10	400	0.003	0.4	2092	0.268	0.019	-0.021	-0.043	8.372	2092.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	400	0.005	0.4	2101	0.424	0.634	0.0	-0.012	86.058	2187.0	4.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	800	0.003	0.4	2101	0.235	0.446	-0.004	-0.011	66.778	2168.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.3	10	800	0.003	0.4	2100	0.101	0.012	-0.017	-0.023	10.999	2100.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	1200	0.003	0.4	2068	-0.222	0.015	-0.035			2068.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	1200	0.005	0.4	2066	-0.307	0.01	-0.038			2066.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.0	1	800	0.003	0.4	2101	0.164	0.374	-0.007	-0.009	73.462	2174.0	4.0	No nourishment | Conservation
+low	0.7	0.1	0.0	1	400	0.003	0.4	2101	0.419	0.63	-0.001	-0.007	141.558	2243.0	4.0	No nourishment | Conservation
+high	0.7	0.1	0.3	10	800	0.005	0.4	2072	-0.137	0.022	-0.032	-0.034	11.261	2072.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	1200	0.003	0.4	2101	0.076	0.287	-0.009	-0.013	37.827	2139.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.3	10	1200	0.003	0.4	2088	-0.083	0.004	-0.021	-0.025	9.34	2088.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	1200	0.005	0.4	2101	-0.013	0.197	-0.011	-0.015	22.534	2124.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.3	10	1200	0.005	0.4	2083	-0.172	0.01	-0.024	-0.027	9.943	2083.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.3	1	800	0.003	0.6	2101	0.515	0.036	-0.022	-0.05	1.711	2103.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.3	1	800	0.005	0.6	2101	0.618	0.829	0.001	-0.009	147.734	2249.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.3	1	800	0.005	0.6	2101	0.558	0.451	-0.008	-0.025	35.907	2137.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.3	1	800	0.005	0.6	2101	0.487	0.008	-0.023	-0.05	0.394	2101.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.3	1	1200	0.003	0.6	2101	0.571	0.782	0.002	-0.008	158.382	2259.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.3	1	1200	0.003	0.6	2101	0.493	0.386	-0.007	-0.024	31.742	2133.0	3.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.0	1	1200	0.003	0.4	2083	-0.162	0.005	-0.024	-0.028	9.831	2083.0	1.0	No nourishment | Conservation
+low	0.7	0.1	0.0	1	1200	0.005	0.4	2101	-0.089	0.122	-0.014	-0.013	15.877	2117.0	2.0	No nourishment | Conservation
+mean	0.7	0.1	0.0	1	1200	0.005	0.4	2078	-0.258	0.009	-0.027	-0.029	10.823	2078.0	1.0	No nourishment | Conservation
+high	0.7	0.1	0.0	1	1200	0.003	0.4	2065	-0.369	0.008	-0.042			2065.0	1.0	No nourishment | Conservation
+mean	0.7	0.1	0.3	10	400	0.005	0.4	2101	0.332	0.225	-0.01	-0.03	14.6	2116.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.3	10	400	0.005	0.4	2089	0.222	0.001	-0.021	-0.034	9.38	2089.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.0	1	400	0.003	0.6	2101	0.536	0.747	0.001	-0.008	153.882	2255.0	4.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.3	5	800	0.005	0.4	2101	0.431	0.642	0.0	-0.009	119.572	2221.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.0	1	400	0.003	0.6	2101	0.454	0.346	-0.008	-0.022	28.604	2130.0	3.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.0	1	400	0.003	0.6	2095	0.356	0.012	-0.021	-0.04	8.955	2095.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.0	1	400	0.005	0.6	2101	0.492	0.703	0.0	-0.008	136.837	2238.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.1	0.0	1	400	0.005	0.6	2101	0.412	0.304	-0.01	-0.023	24.775	2126.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.0	1	400	0.005	0.6	2093	0.317	0.015	-0.021	-0.04	8.701	2093.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.0	1	800	0.003	0.6	2101	0.32	0.531	-0.003	-0.007	120.014	2221.0	4.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.3	1	1200	0.003	0.6	2098	0.404	0.005	-0.022	-0.04	10.72	2098.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.3	1	1200	0.005	0.6	2101	0.529	0.74	0.001	-0.009	143.421	2244.0	4.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.3	5	400	0.005	0.6	2101	0.581	0.792	0.001	-0.01	125.697	2227.0	4.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.0	1	800	0.005	0.6	2076	-0.01	0.018	-0.028	-0.03	12.304	2076.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.0	1	1200	0.003	0.6	2101	0.164	0.374	-0.007	-0.009	73.462	2174.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.1	0.0	1	1200	0.003	0.6	2094	0.018	0.009	-0.019	-0.024	9.876	2094.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.0	1	1200	0.003	0.6	2071	-0.16	0.008	-0.034	-0.031	12.061	2071.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.0	1	1200	0.005	0.6	2101	0.083	0.293	-0.009	-0.01	50.248	2151.0	3.0	No Nourishment | Marsh Restoration
+mean	0.7	0.1	0.0	1	1200	0.005	0.6	2089	-0.063	0.004	-0.021	-0.027	8.707	2089.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.0	1	1200	0.005	0.6	2068	-0.241	0.006	-0.037			2068.0	1.0	No Nourishment | Marsh Restoration
+high	0.7	0.1	0.3	10	400	0.003	0.6	2098	0.409	0.02	-0.019	-0.034	12.114	2098.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.3	10	400	0.005	0.6	2101	0.536	0.747	0.001	-0.012	96.557	2198.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	400	0.005	0.6	2101	0.461	0.354	-0.008	-0.029	22.628	2124.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.3	10	400	0.005	0.6	2097	0.373	0.015	-0.02	-0.034	10.956	2097.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	400	0.005	0.6	2101	0.513	0.406	-0.007	-0.025	29.852	2131.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	400	0.005	0.6	2099	0.435	0.026	-0.02	-0.031	14.223	2099.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.3	5	800	0.003	0.6	2101	0.446	0.657	0.001	-0.009	127.217	2228.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	800	0.003	0.6	2101	0.348	0.241	-0.01	-0.025	18.712	2120.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	800	0.003	0.6	2089	0.23	0.012	-0.021	-0.033	10.293	2089.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.3	5	800	0.005	0.6	2101	0.393	0.604	-0.001	-0.009	107.214	2208.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	800	0.005	0.6	2101	0.297	0.19	-0.011	-0.026	14.324	2115.0	2.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	1200	0.005	0.6	2101	0.12	0.013	-0.016	-0.028	0.932	2102.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	1200	0.005	0.6	2075	-0.029	0.0	-0.027	-0.034	11.157	2075.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.3	10	400	0.003	0.6	2101	0.577	0.788	0.002	-0.011	110.624	2212.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	400	0.003	0.6	2101	0.498	0.391	-0.007	-0.028	25.94	2127.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.3	10	800	0.005	0.6	2080	0.086	0.008	-0.024	-0.038	11.554	2080.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	1	1200	0.003	0.4	2097	0.398	0.025	-0.021	-0.042	10.515	2097.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.5	1	1200	0.005	0.4	2101	0.525	0.735	0.001	-0.009	143.256	2244.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	1	1200	0.005	0.4	2101	0.451	0.344	-0.008	-0.025	28.098	2129.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.5	1	1200	0.005	0.4	2095	0.363	0.019	-0.022	-0.046	9.243	2095.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.5	5	800	0.003	0.4	2101	0.376	0.587	0.0	-0.009	110.665	2212.0	4.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.5	10	800	0.003	0.4	2101	0.276	0.487	-0.003	-0.013	64.248	2165.0	3.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	1200	0.003	0.6	2101	0.235	0.446	-0.004	-0.011	66.778	2168.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	1200	0.003	0.6	2100	0.101	0.012	-0.017	-0.023	10.999	2100.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	800	0.003	0.4	2101	0.149	0.042	-0.015	-0.033	2.562	2104.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	800	0.003	0.4	2077	-0.007	0.01	-0.026	-0.023	14.641	2077.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.3	10	1200	0.003	0.6	2075	-0.063	0.007	-0.029	-0.026	13.06	2075.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.3	10	1200	0.005	0.6	2101	0.161	0.372	-0.006	-0.013	49.012	2150.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	1200	0.005	0.6	2096	0.027	0.002	-0.018	-0.02	11.359	2096.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.3	10	1200	0.005	0.6	2072	-0.137	0.022	-0.032	-0.034	11.261	2072.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.0	1	400	0.003	0.4	2099	0.447	0.025	-0.02	-0.032	13.35	2099.0	1.0	No nourishment | Conservation
+low	0.7	0.1	0.5	1	800	0.003	0.4	2101	0.652	0.862	0.002	-0.009	161.196	2262.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	1	800	0.003	0.4	2101	0.584	0.477	-0.007	-0.025	38.257	2139.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.5	1	800	0.003	0.4	2101	0.511	0.032	-0.022	-0.051	1.509	2103.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.5	1	800	0.005	0.4	2101	0.614	0.825	0.002	-0.01	147.115	2248.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	1	800	0.005	0.4	2101	0.554	0.447	-0.008	-0.025	35.668	2137.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.5	1	800	0.005	0.4	2101	0.483	0.004	-0.023	-0.052	0.197	2101.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.1	0.5	1	1200	0.003	0.4	2101	0.567	0.778	0.002	-0.008	158.947	2260.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	1	1200	0.003	0.4	2101	0.489	0.381	-0.007	-0.025	31.467	2132.0	3.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	5	800	0.003	0.4	2101	0.267	0.159	-0.011	-0.027	12.023	2113.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.5	5	800	0.003	0.4	2083	0.133	0.018	-0.022	-0.024	16.718	2083.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.5	5	800	0.005	0.4	2101	0.317	0.527	-0.002	-0.01	90.053	2191.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.5	5	800	0.005	0.4	2101	0.208	0.101	-0.013	-0.028	7.345	2108.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.5	5	800	0.005	0.4	2080	0.075	0.005	-0.023	-0.028	12.911	2080.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.5	5	1200	0.003	0.4	2101	0.225	0.436	-0.004	-0.01	78.148	2179.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.5	5	1200	0.003	0.4	2100	0.09	0.005	-0.017	-0.02	11.445	2100.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.5	5	1200	0.003	0.4	2074	-0.076	0.008	-0.029	-0.027	12.588	2074.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.1	0.5	5	1200	0.005	0.4	2101	0.15	0.361	-0.006	-0.011	56.974	2158.0	3.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.5	5	1200	0.005	0.4	2094	0.015	0.001	-0.018	-0.024	8.317	2094.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.5	5	1200	0.005	0.4	2070	-0.151	0.011	-0.032	-0.034	12.19	2070.0	1.0	Nourishment (5 years) | Conservation
+mean	0.7	0.1	0.5	10	400	0.003	0.4	2101	0.414	0.307	-0.007	-0.031	18.869	2120.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	400	0.003	0.4	2094	0.308	0.023	-0.019	-0.036	10.583	2094.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	10	400	0.005	0.4	2101	0.456	0.667	0.001	-0.014	76.502	2178.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.5	10	400	0.005	0.4	2101	0.369	0.262	-0.009	-0.033	15.317	2116.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	400	0.005	0.4	2093	0.265	0.013	-0.02	-0.04	8.721	2093.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	10	800	0.005	0.4	2101	0.207	0.417	-0.005	-0.015	48.545	2150.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.5	10	800	0.005	0.4	2099	0.08	0.014	-0.016	-0.021	11.741	2099.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.1	0.5	10	800	0.005	0.4	2075	-0.076	0.004	-0.028	-0.024	13.934	2075.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	10	1200	0.003	0.4	2101	0.118	0.329	-0.007	-0.014	40.164	2141.0	3.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	1	800	0.003	0.6	2101	0.716	0.927	0.001	-0.01	162.846	2264.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.5	1	800	0.003	0.6	2101	0.661	0.554	-0.008	-0.025	43.794	2145.0	3.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.5	1	1200	0.003	0.6	2101	0.584	0.477	-0.007	-0.025	38.257	2139.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.5	1	1200	0.003	0.6	2101	0.511	0.032	-0.022	-0.051	1.509	2103.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.5	1	1200	0.005	0.6	2101	0.614	0.825	0.002	-0.01	147.115	2248.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.5	1	1200	0.005	0.6	2101	0.554	0.447	-0.008	-0.025	35.668	2137.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.5	1	1200	0.005	0.6	2101	0.483	0.004	-0.023	-0.052	0.197	2101.0	2.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.5	5	800	0.003	0.6	2093	0.307	0.028	-0.02	-0.039	9.734	2093.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.5	5	800	0.005	0.6	2101	0.455	0.665	0.001	-0.01	109.47	2210.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.5	5	800	0.005	0.6	2101	0.368	0.261	-0.009	-0.027	19.013	2120.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.5	5	800	0.005	0.6	2092	0.264	0.019	-0.021	-0.042	8.456	2092.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.5	5	1200	0.003	0.6	2101	0.376	0.587	0.0	-0.009	110.665	2212.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.5	5	1200	0.003	0.6	2101	0.267	0.159	-0.011	-0.027	12.023	2113.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.5	5	1200	0.003	0.6	2083	0.133	0.018	-0.022	-0.024	16.718	2083.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.5	5	1200	0.005	0.6	2101	0.317	0.527	-0.002	-0.01	90.053	2191.0	4.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	400	0.005	0.6	2101	0.56	0.771	0.002	-0.014	84.954	2186.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	400	0.005	0.6	2101	0.488	0.38	-0.007	-0.032	21.916	2123.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	10	400	0.005	0.6	2098	0.404	0.022	-0.019	-0.033	12.549	2098.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	800	0.003	0.6	2101	0.419	0.63	0.001	-0.013	82.824	2184.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	800	0.003	0.6	2101	0.316	0.209	-0.01	-0.032	12.932	2114.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	10	800	0.003	0.6	2087	0.192	0.009	-0.021	-0.023	15.831	2087.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	800	0.005	0.6	2101	0.364	0.574	-0.001	-0.014	67.484	2168.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	800	0.005	0.6	2101	0.262	0.155	-0.011	-0.033	9.116	2110.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	1200	0.003	0.4	2094	0.003	0.001	-0.019	-0.023	9.271	2094.0	1.0	Nourishment (5 years) | Conservation
+high	0.7	0.1	0.3	10	800	0.003	0.4	2075	-0.063	0.007	-0.029	-0.026	13.06	2075.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	10	800	0.005	0.4	2101	0.161	0.372	-0.006	-0.013	49.012	2150.0	3.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.3	10	800	0.005	0.4	2096	0.027	0.002	-0.018	-0.02	11.359	2096.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.3	1	800	0.003	0.6	2101	0.655	0.866	0.002	-0.009	160.92	2262.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.3	1	800	0.003	0.6	2101	0.588	0.48	-0.007	-0.024	38.444	2139.0	3.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.3	1	1200	0.005	0.6	2101	0.456	0.349	-0.008	-0.025	28.439	2129.0	2.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.3	1	1200	0.005	0.6	2096	0.369	0.0	-0.022	-0.044	9.09	2096.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.3	5	400	0.003	0.6	2101	0.618	0.829	0.002	-0.009	140.383	2241.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	400	0.003	0.6	2101	0.548	0.441	-0.007	-0.024	33.108	2134.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	400	0.003	0.6	2100	0.466	0.021	-0.02	-0.031	14.518	2100.0	1.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.0	1	400	0.005	0.4	2098	0.414	0.016	-0.021	-0.035	11.269	2098.0	1.0	No nourishment | Conservation
+low	0.7	0.2	0.0	1	800	0.003	0.4	2101	0.419	0.63	-0.001	-0.007	141.558	2243.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	800	0.003	0.4	2101	0.318	0.21	-0.011	-0.023	17.615	2119.0	2.0	No nourishment | Conservation
+high	0.7	0.2	0.0	1	800	0.003	0.4	2086	0.194	0.006	-0.023	-0.03	13.099	2086.0	1.0	No nourishment | Conservation
+high	0.7	0.1	0.3	5	800	0.005	0.6	2085	0.181	0.007	-0.022	-0.034	12.483	2085.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.3	5	1200	0.003	0.6	2101	0.307	0.518	-0.002	-0.009	101.722	2203.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.3	5	1200	0.003	0.6	2101	0.186	0.079	-0.014	-0.026	5.994	2107.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.3	5	1200	0.003	0.6	2078	0.037	0.026	-0.025	-0.028	14.463	2078.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.3	5	1200	0.005	0.6	2101	0.241	0.452	-0.004	-0.01	79.637	2181.0	4.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.0	1	800	0.005	0.4	2083	0.141	0.007	-0.024	-0.029	13.696	2083.0	1.0	No nourishment | Conservation
+low	0.7	0.2	0.0	1	1200	0.003	0.4	2101	0.276	0.487	-0.004	-0.008	107.742	2209.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	1200	0.003	0.4	2101	0.149	0.042	-0.016	-0.025	3.366	2104.0	2.0	No nourishment | Conservation
+high	0.7	0.2	0.0	1	1200	0.003	0.4	2077	-0.007	0.002	-0.028	-0.031	11.328	2077.0	1.0	No nourishment | Conservation
+high	0.7	0.2	0.0	1	400	0.005	0.6	2101	0.522	0.043	-0.02	-0.04	2.038	2103.0	2.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.0	1	800	0.003	0.6	2101	0.536	0.747	0.001	-0.008	153.882	2255.0	4.0	No Nourishment | Marsh Restoration
+low	0.7	0.1	0.3	10	800	0.003	0.6	2101	0.384	0.594	-0.001	-0.011	91.392	2192.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	800	0.003	0.6	2101	0.275	0.168	-0.011	-0.029	11.357	2112.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.3	10	800	0.003	0.6	2084	0.143	0.015	-0.022	-0.025	16.052	2084.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.3	10	800	0.005	0.6	2101	0.325	0.535	-0.002	-0.012	74.008	2175.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.3	10	800	0.005	0.6	2101	0.217	0.11	-0.013	-0.03	7.124	2108.0	2.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.0	1	800	0.003	0.6	2101	0.454	0.346	-0.008	-0.022	28.604	2130.0	3.0	No Nourishment | Marsh Restoration
+high	0.7	0.2	0.0	1	800	0.003	0.6	2095	0.356	0.012	-0.021	-0.04	8.955	2095.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.0	1	800	0.005	0.6	2101	0.492	0.703	0.0	-0.008	136.837	2238.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.2	0.0	1	800	0.005	0.6	2101	0.412	0.304	-0.01	-0.023	24.775	2126.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.2	0.0	1	800	0.005	0.6	2093	0.317	0.015	-0.021	-0.04	8.701	2093.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.0	1	1200	0.003	0.6	2101	0.419	0.63	-0.001	-0.007	141.558	2243.0	4.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.3	1	800	0.003	0.4	2101	0.624	0.835	0.002	-0.009	158.592	2260.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.3	1	800	0.003	0.4	2101	0.556	0.449	-0.007	-0.024	36.29	2137.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.3	1	800	0.003	0.4	2100	0.477	0.026	-0.021	-0.033	15.085	2100.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.0	1	400	0.005	0.4	2101	0.564	0.775	0.0	-0.008	142.68	2244.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	400	0.005	0.4	2101	0.494	0.387	-0.009	-0.022	30.959	2132.0	3.0	No nourishment | Conservation
+low	0.7	0.2	0.0	1	800	0.005	0.4	2101	0.365	0.575	-0.002	-0.008	120.886	2222.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	800	0.005	0.4	2101	0.264	0.157	-0.013	-0.023	12.872	2114.0	2.0	No nourishment | Conservation
+low	0.7	0.2	0.3	1	800	0.005	0.4	2101	0.588	0.799	0.001	-0.009	144.498	2245.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.3	1	800	0.005	0.4	2101	0.522	0.415	-0.008	-0.024	33.256	2134.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.3	1	800	0.005	0.4	2099	0.447	0.026	-0.022	-0.036	13.494	2099.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.3	1	1200	0.003	0.4	2101	0.533	0.744	0.002	-0.008	156.644	2258.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.3	1	1200	0.003	0.4	2101	0.451	0.344	-0.008	-0.024	28.636	2130.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.3	1	1200	0.003	0.4	2095	0.354	0.009	-0.021	-0.043	8.832	2095.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.3	1	1200	0.005	0.4	2101	0.489	0.7	0.001	-0.009	139.317	2240.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.3	1	1200	0.005	0.4	2101	0.409	0.302	-0.009	-0.024	24.751	2126.0	2.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.3	1	1200	0.005	0.4	2093	0.314	0.011	-0.022	-0.043	8.565	2093.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.3	5	400	0.003	0.4	2101	0.642	0.853	0.001	-0.009	148.944	2250.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	400	0.003	0.4	2101	0.574	0.466	-0.007	-0.023	35.782	2137.0	3.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	400	0.003	0.4	2101	0.496	0.017	-0.02	-0.046	0.787	2102.0	2.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.3	5	400	0.005	0.4	2101	0.604	0.815	0.001	-0.009	133.381	2234.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	400	0.005	0.4	2101	0.542	0.435	-0.008	-0.023	32.919	2134.0	3.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	400	0.005	0.4	2100	0.468	0.021	-0.021	-0.03	14.607	2100.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.3	5	800	0.003	0.4	2101	0.481	0.692	0.001	-0.008	137.854	2239.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	800	0.003	0.4	2101	0.389	0.281	-0.009	-0.024	22.412	2123.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	800	0.003	0.4	2092	0.279	0.01	-0.021	-0.04	8.404	2092.0	1.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	800	0.005	0.4	2101	0.342	0.234	-0.01	-0.025	18.289	2119.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	800	0.005	0.4	2089	0.233	0.013	-0.022	-0.034	10.267	2089.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.3	5	1200	0.003	0.4	2101	0.35	0.561	-0.002	-0.008	117.574	2219.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	1200	0.003	0.4	2101	0.236	0.129	-0.013	-0.025	10.233	2111.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	1200	0.003	0.4	2080	0.097	0.024	-0.023	-0.028	14.646	2080.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.3	5	1200	0.005	0.4	2101	0.288	0.499	-0.003	-0.009	94.853	2196.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	5	1200	0.005	0.4	2101	0.175	0.068	-0.015	-0.026	5.184	2106.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.3	5	1200	0.005	0.4	2078	0.036	0.021	-0.025	-0.029	13.698	2078.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.3	10	400	0.003	0.4	2101	0.619	0.83	0.001	-0.01	130.241	2231.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.3	10	400	0.003	0.4	2101	0.549	0.442	-0.007	-0.024	31.786	2133.0	3.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	400	0.003	0.4	2100	0.468	0.018	-0.02	-0.033	13.283	2100.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	10	400	0.005	0.4	2101	0.582	0.793	0.0	-0.01	115.67	2217.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.3	10	400	0.005	0.4	2101	0.514	0.407	-0.008	-0.025	28.551	2130.0	3.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	10	400	0.003	0.4	2101	0.504	0.714	0.002	-0.013	90.731	2192.0	4.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	400	0.005	0.4	2099	0.437	0.019	-0.02	-0.033	12.636	2099.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	10	800	0.003	0.4	2101	0.448	0.659	0.0	-0.009	116.804	2218.0	4.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	10	1200	0.003	0.4	2101	0.311	0.522	-0.003	-0.009	93.673	2195.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.3	10	1200	0.003	0.4	2101	0.19	0.083	-0.014	-0.027	6.042	2107.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	1200	0.003	0.4	2078	0.042	0.022	-0.025	-0.028	13.876	2078.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	10	1200	0.005	0.4	2101	0.245	0.455	-0.004	-0.01	73.398	2174.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.3	10	1200	0.005	0.4	2101	0.124	0.017	-0.016	-0.028	1.191	2102.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	1200	0.005	0.4	2076	-0.024	0.013	-0.028	-0.027	12.804	2076.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.3	1	800	0.005	0.6	2101	0.607	0.5	-0.008	-0.023	39.354	2140.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.3	1	800	0.005	0.6	2101	0.548	0.069	-0.022	-0.046	3.283	2104.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.3	1	1200	0.003	0.6	2101	0.624	0.835	0.002	-0.009	158.592	2260.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.3	1	1200	0.003	0.6	2101	0.556	0.449	-0.007	-0.024	36.29	2137.0	3.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.5	10	1200	0.003	0.4	2090	-0.035	0.0	-0.02	-0.028	9.044	2090.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.1	0.5	10	1200	0.005	0.4	2101	0.032	0.243	-0.009	-0.016	25.825	2127.0	2.0	Nourishment (10 years) | Conservation
+mean	0.7	0.1	0.5	10	1200	0.005	0.4	2086	-0.12	0.005	-0.022	-0.022	11.169	2086.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	1	1200	0.003	0.6	2100	0.477	0.026	-0.021	-0.033	15.085	2100.0	1.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.3	1	1200	0.005	0.6	2101	0.588	0.799	0.001	-0.009	144.498	2245.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.3	1	1200	0.005	0.6	2101	0.522	0.415	-0.008	-0.024	33.256	2134.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.3	1	1200	0.005	0.6	2099	0.447	0.026	-0.022	-0.036	13.494	2099.0	1.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.3	5	400	0.005	0.6	2101	0.562	0.083	-0.02	-0.042	3.809	2105.0	2.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	5	800	0.003	0.6	2101	0.584	0.794	0.002	-0.009	144.187	2245.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	800	0.003	0.6	2101	0.506	0.399	-0.007	-0.024	31.039	2132.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.5	1	800	0.003	0.6	2101	0.596	0.117	-0.023	-0.05	5.593	2107.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.5	1	800	0.005	0.6	2101	0.687	0.898	0.001	-0.01	151.108	2252.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.1	0.5	1	800	0.005	0.6	2101	0.635	0.527	-0.008	-0.025	41.503	2143.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.1	0.5	1	800	0.005	0.6	2101	0.575	0.097	-0.023	-0.05	4.616	2106.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.1	0.5	1	1200	0.003	0.6	2101	0.652	0.862	0.002	-0.009	161.196	2262.0	4.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.3	5	800	0.003	0.6	2099	0.419	0.004	-0.02	-0.032	12.302	2099.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	5	800	0.005	0.6	2101	0.543	0.754	0.001	-0.009	130.5	2232.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	800	0.005	0.6	2101	0.47	0.363	-0.008	-0.024	27.763	2129.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.3	5	800	0.005	0.6	2097	0.384	0.029	-0.021	-0.038	10.549	2097.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	5	1200	0.003	0.6	2101	0.481	0.692	0.001	-0.008	137.854	2239.0	4.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	10	400	0.003	0.6	2101	0.692	0.902	0.0	-0.01	133.564	2235.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	400	0.003	0.6	2101	0.63	0.523	-0.007	-0.023	37.173	2138.0	3.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	400	0.003	0.6	2101	0.562	0.083	-0.019	-0.044	3.603	2105.0	2.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.5	5	800	0.003	0.6	2101	0.502	0.713	0.002	-0.009	126.209	2227.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.1	0.5	5	800	0.003	0.6	2101	0.413	0.305	-0.008	-0.026	22.905	2124.0	2.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	10	1200	0.005	0.6	2101	0.396	0.606	-0.001	-0.01	98.025	2199.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	1200	0.005	0.6	2101	0.3	0.193	-0.011	-0.027	13.839	2115.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	1200	0.005	0.6	2086	0.184	0.007	-0.022	-0.027	14.624	2086.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	1	800	0.003	0.4	2101	0.619	0.512	-0.007	-0.024	40.754	2142.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.5	1	800	0.003	0.4	2101	0.552	0.074	-0.022	-0.048	3.503	2105.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.5	1	800	0.005	0.4	2101	0.65	0.861	0.001	-0.009	150.606	2252.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.5	1	800	0.005	0.4	2101	0.59	0.483	-0.008	-0.024	38.154	2139.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.5	1	800	0.005	0.4	2101	0.527	0.048	-0.023	-0.049	2.288	2103.0	2.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.5	1	1200	0.003	0.4	2101	0.605	0.816	0.002	-0.009	155.775	2257.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.1	0.5	5	1200	0.005	0.6	2101	0.208	0.101	-0.013	-0.028	7.345	2108.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.1	0.5	5	1200	0.005	0.6	2080	0.075	0.005	-0.023	-0.028	12.911	2080.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	400	0.003	0.6	2101	0.599	0.81	0.002	-0.013	97.919	2199.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	400	0.003	0.6	2101	0.525	0.417	-0.006	-0.03	25.24	2126.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	10	400	0.003	0.6	2099	0.438	0.024	-0.019	-0.035	12.601	2099.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	1	1200	0.003	0.4	2101	0.534	0.427	-0.007	-0.024	34.803	2136.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.5	1	1200	0.003	0.4	2100	0.452	0.002	-0.022	-0.034	13.39	2100.0	1.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.5	1	1200	0.005	0.4	2101	0.568	0.779	0.001	-0.009	145.132	2246.0	4.0	Nourishment (annual) | Conservation
+mean	0.7	0.2	0.5	1	1200	0.005	0.4	2101	0.499	0.391	-0.008	-0.025	31.497	2132.0	3.0	Nourishment (annual) | Conservation
+high	0.7	0.2	0.5	1	1200	0.005	0.4	2098	0.42	0.022	-0.022	-0.04	11.714	2098.0	1.0	Nourishment (annual) | Conservation
+high	0.7	0.1	0.5	10	800	0.005	0.6	2085	0.139	0.005	-0.022	-0.021	18.215	2085.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	1200	0.003	0.6	2101	0.276	0.487	-0.003	-0.013	64.248	2165.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	1200	0.003	0.6	2101	0.149	0.042	-0.015	-0.033	2.562	2104.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	10	1200	0.003	0.6	2077	-0.007	0.01	-0.026	-0.023	14.641	2077.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.1	0.5	10	1200	0.005	0.6	2101	0.207	0.417	-0.005	-0.015	48.545	2150.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.1	0.5	10	1200	0.005	0.6	2099	0.08	0.014	-0.016	-0.021	11.741	2099.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.1	0.5	10	1200	0.005	0.6	2075	-0.076	0.004	-0.028	-0.024	13.934	2075.0	1.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	5	800	0.003	0.4	2101	0.426	0.318	-0.008	-0.025	24.736	2126.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.5	5	800	0.003	0.4	2094	0.323	0.009	-0.02	-0.04	8.673	2094.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.5	5	800	0.005	0.4	2101	0.467	0.677	0.0	-0.009	118.413	2219.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.5	5	800	0.005	0.4	2101	0.382	0.275	-0.009	-0.025	20.806	2122.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.5	5	800	0.005	0.4	2092	0.281	0.023	-0.021	-0.041	8.855	2092.0	1.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.3	10	800	0.003	0.4	2101	0.351	0.244	-0.01	-0.026	18.092	2119.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	800	0.003	0.4	2089	0.234	0.008	-0.021	-0.034	10.002	2089.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	10	800	0.005	0.4	2101	0.396	0.606	-0.001	-0.01	98.025	2199.0	4.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.0	1	400	0.003	0.4	2101	0.602	0.813	0.001	-0.008	153.254	2254.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	400	0.003	0.4	2101	0.53	0.422	-0.008	-0.022	34.218	2135.0	3.0	No nourishment | Conservation
+low	0.7	0.2	0.5	5	1200	0.003	0.4	2101	0.39	0.601	0.0	-0.008	120.441	2221.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.5	5	1200	0.003	0.4	2101	0.283	0.176	-0.011	-0.025	13.777	2115.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.5	5	1200	0.003	0.4	2084	0.153	0.007	-0.022	-0.026	14.758	2084.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.5	5	1200	0.005	0.4	2101	0.332	0.543	-0.002	-0.009	99.631	2201.0	4.0	Nourishment (5 years) | Conservation
+mean	0.7	0.2	0.5	5	1200	0.005	0.4	2101	0.227	0.119	-0.013	-0.026	9.049	2110.0	2.0	Nourishment (5 years) | Conservation
+high	0.7	0.2	0.5	5	1200	0.005	0.4	2080	0.097	0.004	-0.023	-0.032	13.866	2080.0	1.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.5	10	400	0.003	0.4	2101	0.631	0.842	0.001	-0.011	120.061	2221.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	400	0.003	0.4	2101	0.561	0.453	-0.007	-0.026	30.601	2132.0	3.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.5	10	400	0.003	0.4	2101	0.48	0.001	-0.02	-0.051	0.05	2101.0	2.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.5	10	400	0.005	0.4	2101	0.593	0.803	0.001	-0.012	104.626	2206.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	400	0.005	0.4	2101	0.527	0.42	-0.008	-0.027	27.476	2128.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.5	10	400	0.005	0.4	2100	0.451	0.003	-0.02	-0.035	11.593	2100.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.0	1	1200	0.005	0.4	2101	0.206	0.417	-0.006	-0.009	82.809	2184.0	4.0	No nourishment | Conservation
+mean	0.7	0.2	0.0	1	1200	0.005	0.4	2099	0.08	0.006	-0.018	-0.021	11.383	2099.0	1.0	No nourishment | Conservation
+high	0.7	0.2	0.0	1	1200	0.005	0.4	2074	-0.076	0.003	-0.03	-0.031	11.613	2074.0	1.0	No nourishment | Conservation
+low	0.7	0.2	0.3	10	400	0.005	0.6	2101	0.66	0.871	0.0	-0.01	123.099	2224.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	400	0.005	0.6	2101	0.6	0.492	-0.008	-0.023	34.158	2135.0	3.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	400	0.005	0.6	2101	0.538	0.059	-0.02	-0.044	2.519	2104.0	2.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.3	10	800	0.003	0.6	2101	0.558	0.769	0.001	-0.01	126.617	2228.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	800	0.003	0.6	2101	0.478	0.37	-0.008	-0.025	26.973	2128.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	1200	0.003	0.6	2089	0.234	0.008	-0.021	-0.034	10.002	2089.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	1	800	0.003	0.4	2101	0.683	0.894	0.002	-0.009	159.431	2260.0	4.0	Nourishment (annual) | Conservation
+low	0.7	0.2	0.0	1	400	0.003	0.6	2101	0.68	0.891	0.0	-0.008	157.657	2259.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.2	0.0	1	400	0.003	0.6	2101	0.615	0.508	-0.008	-0.02	40.243	2141.0	3.0	No Nourishment | Marsh Restoration
+high	0.7	0.2	0.0	1	400	0.003	0.6	2101	0.548	0.069	-0.02	-0.04	3.277	2104.0	2.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.0	1	400	0.005	0.6	2101	0.646	0.857	-0.001	-0.008	148.761	2250.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.2	0.0	1	400	0.005	0.6	2101	0.586	0.479	-0.008	-0.021	37.746	2139.0	3.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.5	10	800	0.003	0.4	2101	0.466	0.677	0.001	-0.01	106.362	2207.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	800	0.003	0.4	2101	0.371	0.263	-0.009	-0.027	18.327	2119.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.5	10	800	0.003	0.4	2090	0.257	0.004	-0.021	-0.045	8.152	2090.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.5	10	800	0.005	0.4	2101	0.414	0.625	0.0	-0.012	89.347	2190.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	800	0.005	0.4	2101	0.322	0.215	-0.01	-0.029	14.371	2115.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.5	10	800	0.005	0.4	2088	0.21	0.004	-0.021	-0.03	11.552	2088.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.0	1	1200	0.003	0.6	2101	0.318	0.21	-0.011	-0.023	17.615	2119.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.2	0.0	1	1200	0.003	0.6	2086	0.194	0.006	-0.023	-0.03	13.099	2086.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.0	1	1200	0.005	0.6	2101	0.365	0.575	-0.002	-0.008	120.886	2222.0	4.0	No Nourishment | Marsh Restoration
+mean	0.7	0.2	0.0	1	1200	0.005	0.6	2101	0.264	0.157	-0.013	-0.023	12.872	2114.0	2.0	No Nourishment | Marsh Restoration
+high	0.7	0.2	0.0	1	1200	0.005	0.6	2083	0.141	0.007	-0.024	-0.029	13.696	2083.0	1.0	No Nourishment | Marsh Restoration
+low	0.7	0.2	0.5	5	800	0.003	0.4	2101	0.513	0.723	0.002	-0.009	134.902	2236.0	4.0	Nourishment (5 years) | Conservation
+low	0.7	0.2	0.5	10	1200	0.003	0.4	2101	0.332	0.543	-0.002	-0.01	87.826	2189.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	1200	0.003	0.4	2101	0.215	0.108	-0.013	-0.028	7.455	2108.0	2.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.5	1	800	0.003	0.6	2101	0.745	0.956	0.0	-0.009	164.699	2266.0	4.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.5	1	800	0.003	0.6	2101	0.631	0.152	-0.022	-0.046	7.255	2108.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.5	1	800	0.005	0.6	2101	0.713	0.923	0.0	-0.009	155.331	2256.0	4.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.5	1	1200	0.005	0.6	2101	0.65	0.861	0.001	-0.009	150.606	2252.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.5	1	1200	0.005	0.6	2101	0.59	0.483	-0.008	-0.024	38.154	2139.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.5	10	1200	0.003	0.4	2080	0.071	0.001	-0.024	-0.032	11.137	2080.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	1	800	0.003	0.6	2101	0.688	0.58	-0.008	-0.023	45.628	2147.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.5	1	1200	0.005	0.6	2101	0.527	0.048	-0.023	-0.049	2.288	2103.0	2.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.5	5	1200	0.005	0.6	2101	0.382	0.275	-0.009	-0.025	20.806	2122.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.5	5	1200	0.005	0.6	2092	0.281	0.023	-0.021	-0.041	8.855	2092.0	1.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.5	5	800	0.005	0.6	2101	0.5	0.392	-0.008	-0.025	29.131	2130.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.5	5	800	0.005	0.6	2099	0.42	0.009	-0.021	-0.032	12.914	2099.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.5	5	1200	0.003	0.6	2101	0.513	0.723	0.002	-0.009	134.902	2236.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.5	5	1200	0.003	0.6	2101	0.426	0.318	-0.008	-0.025	24.736	2126.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.5	5	1200	0.003	0.6	2094	0.323	0.009	-0.02	-0.04	8.673	2094.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.5	5	1200	0.005	0.6	2101	0.467	0.677	0.0	-0.009	118.413	2219.0	4.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	400	0.005	0.6	2101	0.547	0.068	-0.02	-0.047	2.762	2104.0	2.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	800	0.003	0.6	2101	0.571	0.782	0.002	-0.011	115.129	2216.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	800	0.003	0.6	2101	0.492	0.384	-0.007	-0.027	26.2	2127.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	800	0.003	0.6	2098	0.401	0.01	-0.02	-0.034	11.426	2098.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	800	0.005	0.6	2101	0.529	0.74	0.001	-0.012	100.609	2202.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	800	0.005	0.6	2101	0.454	0.347	-0.008	-0.028	22.883	2124.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	800	0.005	0.6	2097	0.365	0.004	-0.02	-0.035	10.12	2097.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	1200	0.003	0.6	2101	0.466	0.677	0.001	-0.01	106.362	2207.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	800	0.005	0.4	2101	0.3	0.193	-0.011	-0.027	13.839	2115.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.3	10	800	0.005	0.4	2086	0.184	0.007	-0.022	-0.027	14.624	2086.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.2	0.3	1	800	0.003	0.6	2101	0.696	0.907	0.001	-0.009	157.969	2259.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.3	1	800	0.003	0.6	2101	0.637	0.53	-0.007	-0.023	42.056	2143.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.3	1	800	0.003	0.6	2101	0.571	0.092	-0.021	-0.046	4.398	2105.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.3	1	800	0.005	0.6	2101	0.666	0.877	0.0	-0.009	150.654	2252.0	4.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.3	5	400	0.003	0.6	2101	0.708	0.919	0.0	-0.009	151.166	2252.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	400	0.003	0.6	2101	0.651	0.544	-0.007	-0.021	41.358	2142.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.3	5	400	0.003	0.6	2101	0.584	0.105	-0.019	-0.041	4.835	2106.0	2.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	5	400	0.005	0.6	2101	0.679	0.889	0.0	-0.009	140.595	2242.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	400	0.005	0.6	2101	0.623	0.516	-0.008	-0.022	38.765	2140.0	3.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	1200	0.003	0.6	2101	0.389	0.281	-0.009	-0.024	22.412	2123.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.3	5	1200	0.003	0.6	2092	0.279	0.01	-0.021	-0.04	8.404	2092.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.3	5	1200	0.005	0.6	2101	0.431	0.642	0.0	-0.009	119.572	2221.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.3	5	1200	0.005	0.6	2101	0.342	0.234	-0.01	-0.025	18.289	2119.0	2.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.3	5	1200	0.005	0.6	2089	0.233	0.013	-0.022	-0.034	10.267	2089.0	1.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	800	0.003	0.6	2097	0.384	0.018	-0.02	-0.036	10.582	2097.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.3	10	800	0.005	0.6	2101	0.515	0.725	0.0	-0.01	110.681	2212.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	800	0.005	0.6	2101	0.438	0.331	-0.009	-0.026	23.495	2124.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.3	10	800	0.005	0.6	2095	0.347	0.016	-0.02	-0.038	9.692	2095.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.3	10	1200	0.003	0.6	2101	0.448	0.659	0.0	-0.009	116.804	2218.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.3	10	1200	0.003	0.6	2101	0.351	0.244	-0.01	-0.026	18.092	2119.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.0	1	400	0.003	0.4	2071	-0.16	0.008	-0.034	-0.031	12.061	2071.0	1.0	No nourishment | Conservation
+high	0.7	0.05	0.5	10	1200	0.003	0.4	2064	-0.451	0.004	-0.044			2064.0	1.0	Nourishment (10 years) | Conservation
+high	0.7	0.05	0.5	10	1200	0.005	0.4	2060	-0.552	0.01	-0.05			2060.0	1.0	Nourishment (10 years) | Conservation
+low	0.7	0.05	0.0	1	400	0.005	0.4	2101	0.083	0.293	-0.009	-0.01	50.248	2151.0	3.0	No nourishment | Conservation
+low	0.7	0.2	0.5	10	1200	0.005	0.4	2101	0.268	0.479	-0.003	-0.012	69.232	2170.0	4.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	10	1200	0.005	0.4	2101	0.152	0.044	-0.015	-0.03	2.934	2104.0	2.0	Nourishment (10 years) | Conservation
+high	0.7	0.2	0.5	10	1200	0.005	0.4	2077	0.008	0.019	-0.026	-0.026	14.353	2077.0	1.0	Nourishment (10 years) | Conservation
+mean	0.7	0.2	0.5	1	800	0.005	0.6	2101	0.665	0.558	-0.009	-0.023	43.739	2145.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.5	1	800	0.005	0.6	2101	0.609	0.13	-0.023	-0.046	6.183	2107.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.5	1	1200	0.003	0.6	2101	0.683	0.894	0.002	-0.009	159.431	2260.0	4.0	Nourishment (annual) | Marsh Restoration
+mean	0.7	0.2	0.5	1	1200	0.003	0.6	2101	0.619	0.512	-0.007	-0.024	40.754	2142.0	3.0	Nourishment (annual) | Marsh Restoration
+high	0.7	0.2	0.5	1	1200	0.003	0.6	2101	0.552	0.074	-0.022	-0.048	3.503	2105.0	2.0	Nourishment (annual) | Marsh Restoration
+low	0.7	0.2	0.5	5	800	0.003	0.6	2101	0.607	0.818	0.002	-0.009	140.066	2241.0	4.0	Nourishment (5 years) | Marsh Restoration
+mean	0.7	0.2	0.5	5	800	0.003	0.6	2101	0.536	0.428	-0.007	-0.024	32.526	2134.0	3.0	Nourishment (5 years) | Marsh Restoration
+high	0.7	0.2	0.5	5	800	0.003	0.6	2100	0.452	0.006	-0.02	-0.031	13.482	2100.0	1.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.5	5	800	0.005	0.6	2101	0.57	0.781	0.001	-0.01	127.154	2228.0	4.0	Nourishment (5 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	400	0.003	0.6	2101	0.698	0.909	0.0	-0.011	123.109	2224.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	400	0.003	0.6	2101	0.639	0.532	-0.007	-0.024	35.646	2137.0	3.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	400	0.003	0.6	2101	0.57	0.091	-0.019	-0.046	3.775	2105.0	2.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	400	0.005	0.6	2101	0.668	0.879	0.0	-0.011	112.136	2213.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	400	0.005	0.6	2101	0.61	0.502	-0.008	-0.025	32.648	2134.0	3.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	1200	0.003	0.6	2101	0.371	0.263	-0.009	-0.027	18.327	2119.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	1200	0.003	0.6	2090	0.257	0.004	-0.021	-0.045	8.152	2090.0	1.0	Nourishment (10 years) | Marsh Restoration
+low	0.7	0.2	0.5	10	1200	0.005	0.6	2101	0.414	0.625	0.0	-0.012	89.347	2190.0	4.0	Nourishment (10 years) | Marsh Restoration
+mean	0.7	0.2	0.5	10	1200	0.005	0.6	2101	0.322	0.215	-0.01	-0.029	14.371	2115.0	2.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.2	0.5	10	1200	0.005	0.6	2088	0.21	0.004	-0.021	-0.03	11.552	2088.0	1.0	Nourishment (10 years) | Marsh Restoration
+high	0.7	0.05	0.0	1	400	0.003	0.6	2079	0.055	0.01	-0.026	-0.031	12.654	2079.0		Example 1)
+mean	0.7	0.05	0.0	1	400	0.003	0.4	2094	0.018	0.009	-0.019	-0.024	9.876	2094.0		Example 2)
+high	0.7	0.05	0.0	1	400	0.003	0.4	2071	-0.16	0.008	-0.034	-0.031	12.061	2071.0		Example 3)

@@ -1,0 +1,9 @@
+Parameter	Values
+slr_select	low, mean, high
+z_init	0.4, 0.7, 1.2, 1.7
+s_subsidence	0.0027, 0.005
+rho_deposit	400, 800, 1200
+c_flood	0.05, 0.1, 0.2
+fd	0.2, 0.4, 0.6, 0.8
+nourishment_frequency	1, 5, 10
+c_flood_nourishment	0, 0.3, 0.5
