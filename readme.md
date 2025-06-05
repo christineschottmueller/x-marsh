@@ -1,13 +1,13 @@
-This README.txt file was generated on 2025-05-08 by Christine Schottmüller
+This README.txt file was generated on 2025-05-08 by Christine SchottmÃ¼ller
 
 
 GENERAL INFORMATION
 1. Title of dataset: Exploratory Marsh Accretion Model Data
 2. Creator information:
-   Christine Schottmüller, Landscape Ecology and Environmental System Analysis, Institute of Geoecology, Technische Universität Braunschweig, Germany
+   Christine SchottmÃ¼ller, Landscape Ecology and Environmental System Analysis, Institute of Geoecology, Technische UniversitÃ¤t Braunschweig, Germany
    Email: [c.schottmueller@tu-braunschweig.de](mailto:c.schottmueller@tu-braunschweig.de)
 3. Supporting data and code for submission:
-   Schottmüller, C., & David, G. 'Growing Up With Sea Level Rise - Perspectives on Marsh Adaptation in the Wadden Sea', Technische Universität Braunschweig, submitted to AGU Earth's Future.
+   SchottmÃ¼ller, C., & David, G. 'Growing Up With Sea Level Rise - Perspectives on Marsh Adaptation in the Wadden Sea', Technische UniversitÃ¤t Braunschweig, submitted to AGU Earth's Future.
 4. Funding sources:
 
    * BMBF (METAscales project, FKZ 03F0955-A)
@@ -100,6 +100,6 @@ DATA-SPECIFIC INFORMATION
    
 
 NOTES
-For inquiries, contact Christine SchottmÃ¼ller ([c.schottmueller@tu-braunschweig.de](mailto:c.schottmueller@tu-braunschweig.de)).
+For inquiries, contact Christine SchottmÃƒÂ¼ller ([c.schottmueller@tu-braunschweig.de](mailto:c.schottmueller@tu-braunschweig.de)).
 
 
