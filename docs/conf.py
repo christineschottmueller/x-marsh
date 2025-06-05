@@ -43,5 +43,5 @@ html_context = {
   'display_github': True,
   'github_user': 'christineschottmueller',
   'github_repo': 'x-marsh',
-  'github_version': 'master/source/'
+  'github_version': '/tree/master/docs/'
 }
