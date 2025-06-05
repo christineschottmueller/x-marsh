@@ -19,3 +19,14 @@ body {
     margin: 0 auto;
 }
 
+.wy-nav-content {
+    max-width: 900px !important;
+}
+
+.wy-side-nav-search{
+    background-color: #740041;
+}
+
+.wy-nav-top{
+   background-color: #740041;
+}
