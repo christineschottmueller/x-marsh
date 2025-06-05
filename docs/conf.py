@@ -43,6 +43,6 @@ html_context = {
   'display_github': True,
   'github_user': 'christineschottmueller',
   'github_repo': 'x-marsh',
-  'github_url' = "https://github.com/christineschottmueller/x-marsh/tree/master"
+  'github_url' = 'https://github.com/christineschottmueller/x-marsh/tree/master'
   #'github_version': 'master'
 }
