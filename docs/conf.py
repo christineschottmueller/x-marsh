@@ -27,7 +27,6 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 #html_theme = 'alabaster'
 # -- This will hide the project name next to the logo, showing only the image.
 html_theme = 'sphinx_rtd_theme'
-html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 html_theme_options = {
     'logo_only': True,
     'display_version': False,
