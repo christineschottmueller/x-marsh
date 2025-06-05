@@ -24,5 +24,17 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = 'alabaster'
+#html_theme = 'alabaster'
+# -- This will hide the project name next to the logo, showing only the image.
+html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'logo_only': True,
+    'display_version': False,
+}
+
 html_static_path = ['_static']
+# -- Link .css file that contains custom font
+html_css_files = ['custom.css']
+
+# -- Place logo in the top left corner of theme -----------------------------
+html_logo = "_static/logo.png"
