@@ -14,6 +14,14 @@ body {
   color: #FBFBFB;
 }
 
+.wy-menu-vertical p.caption {
+  color: #06131c;
+  line-height: 32px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 85%;
+  white-space: nowrap;
+}
 
 .wy-side-nav-search > a img.logo {
   display: block;
@@ -25,6 +33,7 @@ body {
   background: transparent;
 }
 
+/* Feld hinter Logo */
 .wy-side-nav-search {
   display: block;
   width: 300px;
