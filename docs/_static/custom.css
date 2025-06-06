@@ -15,6 +15,7 @@ body {
 
 .wy-nav-content {
     max-width: 1200px !important;
+	background-color: #DDA63A;
 }
 
 #.wy-side-nav-search{
@@ -30,9 +31,6 @@ body {
 }
 
 .wy-nav-content-wrap {
-    background-color:#DDA63A;
+    background-color: #DDA63A;
 }
 
-.wy-nav-content {
-    background-color: #fcfcfc;
-}
