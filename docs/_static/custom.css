@@ -25,10 +25,10 @@ body {
     background-color: #efefef;
 }
 
-
+/* Customize background color of content and blank space behind */
 .wy-nav-content {
     max-width: 1200px !important;
-	background-color: #B7A392;
+	background-color: #FBFBFB;
 }
 
 .wy-nav-content-wrap {
