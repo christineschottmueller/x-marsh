@@ -39,10 +39,12 @@ html_css_files = ['custom.css']
 # -- Place logo in the top left corner of theme -----------------------------
 html_logo = "_static/logo.png"
 
-html_theme_options = dict(
-#html_context = {
+
+html_context = {
+# Enable the "Edit in GitHub" link within the header of each page.
   'display_github': True,
+  # Set the following variables to generate the resulting github URL for each page.
   'github_user': 'christineschottmueller',
   'github_repo': 'x-marsh',
-  'github_version': '/master/docs/')
-#}
+  'github_version': 'master/docs/'
+}
