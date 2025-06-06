@@ -13,11 +13,6 @@ body {
     margin: 0 auto;
 }
 
-.wy-nav-content {
-    max-width: 1200px !important;
-	background-color: #DDA63A;
-}
-
 .wy-side-nav-search{
     background-color: #FBFBFB;
 }
@@ -30,7 +25,12 @@ body {
     background-color: #efefef;
 }
 
-.wy-nav-content-wrap {
-    background-color: #DDA63A;
+
+.wy-nav-content {
+    max-width: 1200px !important;
+	background-color: #B7A392;
 }
 
+.wy-nav-content-wrap {
+    background-color: #B7A392;
+}
