@@ -39,9 +39,10 @@ html_css_files = ['custom.css']
 # -- Place logo in the top left corner of theme -----------------------------
 html_logo = "_static/logo.png"
 
-html_context = {
+html_theme_options = dict(
+#html_context = {
   'display_github': True,
   'github_user': 'christineschottmueller',
   'github_repo': 'x-marsh',
-  'github_version': 'master/docs/'
+  'github_version': '/master/docs/'
 }
