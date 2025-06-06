@@ -25,6 +25,16 @@ body {
   background: transparent;
 }
 
+.wy-side-nav-search {
+  display: block;
+  width: 300px;
+  padding: .809em;
+  margin-bottom: .809em;
+  z-index: 200;
+  background-color: #06131c;
+  text-align: center;
+  color: #fcfcfc00;
+}
 
 /* Farbe RCP2.6 */
 .wy-nav-side {
