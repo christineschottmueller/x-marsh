@@ -13,7 +13,7 @@ body {
   font-size: 100%;
   color: #FBFBFB;
 }
-
+/* CONTENTS Feld */
 .wy-menu-vertical p.caption {
   color: #06131c;
   line-height: 32px;
@@ -22,7 +22,7 @@ body {
   font-size: 85%;
   white-space: nowrap;
 }
-
+/*  Logo */
 .wy-side-nav-search > a img.logo {
   display: block;
   margin: 0 auto;
@@ -44,26 +44,20 @@ body {
   text-align: center;
   color: #fcfcfc00;
 }
+/* TOC Farbe SDG 17/ 50% */
 
-/* Farbe SDG 17/ 50% */
 .wy-nav-side {
    background-color: #7591A6;
 }
 
-.wy-menu-vertical li.current > a, .wy-menu-vertical li.on a {
-  color: #19486A;
-  font-weight: 700;
-  position: relative;
-  background: #fcfcfc;
-  border: none;
-    border-top-width: medium;
-    border-top-style: none;
-    border-top-color: currentcolor;
-    border-bottom-width: medium;
-    border-bottom-style: none;
-    border-bottom-color: currentcolor;
-  padding: .4045em 1.618em;
+
+.wy-menu-vertical li.current a, .wy-menu-vertical li.toctree-l2.current > a
+{
+  background-color: #19486A;
+  border-color: #19486A;
 }
+
+
 
 
 .wy_breadcrumbs{
