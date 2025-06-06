@@ -10,6 +10,7 @@ Welcome to x-marsh's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   figure_5_python_nb
 
    01_conceptualizing
    02_indicators
