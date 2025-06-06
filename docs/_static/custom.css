@@ -15,6 +15,17 @@ body {
 }
 
 
+.wy-side-nav-search > a img.logo {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+  width: auto;
+  border-radius: 0;
+  max-width: 60%;
+  background: transparent;
+}
+
+
 /* Farbe RCP2.6 */
 .wy-nav-side {
    background-color: #79BCFF;
