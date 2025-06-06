@@ -44,5 +44,5 @@ html_theme_options = dict(
   'display_github': True,
   'github_user': 'christineschottmueller',
   'github_repo': 'x-marsh',
-  'github_version': '/master/docs/'
-}
+  'github_version': '/master/docs/')
+#}
