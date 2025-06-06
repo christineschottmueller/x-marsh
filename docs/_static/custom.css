@@ -5,15 +5,15 @@ body {
 }
 
 
-/* Resize the logo */
-.wy-side-nav-search-logo img {
-    width: 60%;  /* or use 100px for a fixed size */
-    height: auto;
-    display: block;
-    margin: 0 auto;
+
+.wy-side-nav-search > a img.logo {
+    /* Fixed size to prevent reflows and support hiDPI displays */
+    /* A 5 pixel margin is added on each side. The logo itself displays at 200×200 at 100% scaling. */
+    width: 210px;
+    height: 210px;
 }
 
-.wy-side-nav-search{
+.wy-body-nav-search{
     background-color: #FBFBFB;
 }
 
