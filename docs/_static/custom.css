@@ -18,13 +18,13 @@ body {
 	background-color: #DDA63A;
 }
 
-#.wy-side-nav-search{
- #   background-color: #FBFBFB;
-#}
+.wy-side-nav-search{
+    background-color: #FBFBFB;
+}
 
-#.wy-nav-top{
-#   background-color: #FBFBFB;
-#}
+.wy-nav-top{
+   background-color: #FBFBFB;
+}
 
 .wy-body-for-nav {
     background-color: #efefef;
