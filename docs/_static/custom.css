@@ -6,7 +6,7 @@ body {
 
 
 /* Resize the logo */
-.wy-side-nav-search .wy-side-nav-search-logo img {
+.wy-side-nav-search-logo img {
     width: 60%;  /* or use 100px for a fixed size */
     height: auto;
     display: block;
@@ -14,13 +14,25 @@ body {
 }
 
 .wy-nav-content {
-    max-width: 900px !important;
+    max-width: 1200px !important;
 }
 
-.wy-side-nav-search{
-    background-color: #FBFBFB;
+#.wy-side-nav-search{
+ #   background-color: #FBFBFB;
+#}
+
+#.wy-nav-top{
+#   background-color: #FBFBFB;
+#}
+
+.wy-body-for-nav {
+    background-color: #efefef;
 }
 
-.wy-nav-top{
-   background-color: #FBFBFB;
+.wy-nav-content-wrap {
+    background-color:#333f67;
+}
+
+.wy-nav-content {
+    background-color: #fcfcfc;
 }
