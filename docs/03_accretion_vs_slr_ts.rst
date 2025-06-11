@@ -9,8 +9,6 @@
     from matplotlib.gridspec import GridSpec
     import seaborn as sns
 
-Figure 3 - top row
-------------------
 
 Simulated marsh-accretion trajectories for different sea level rise rates
 -------------------------------------------------------------------------
