@@ -10,12 +10,11 @@ Welcome to x-marsh's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   figure_5_python_nb
-
    01_conceptualizing
    02_indicators
-   03_policy_lifespans
-   04_adaptation_pathways
+   03_accretion_vs_slr_ts
+   04_policy_lifespans
+   05_adaptation_pathways
 
 Indices and tables
 ==================
