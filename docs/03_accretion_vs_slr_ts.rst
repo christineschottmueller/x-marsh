@@ -327,8 +327,7 @@ Plot command
     
     plt.show()
 
-
-
-.. image:: figure_3_top_python_nb_files%5Cfigure_3_top_python_nb_12_0.png
-
-
+.. image:: _static/images/fig_03_accretion_ts_no_management.png
+   :alt: a), d): Simulated time-series ($n=6$) of annual growth rate in the pioneer zone in focus area 15 with fixed categorical, uncertain parameters. The simulations were performed using inputs from the high and low emissions sea level rise scenarios \gls{RCP}2.6 and \gls{RCP}8.5 (X). Upper and lower row depict the influence of the salt marsh management policies conservation (brown) and marsh restoration (green). b), e): Associated trajectories of elevation change along with the projected mean sea level. The circles highlight the \textit{critical year} of the simulations, where mean sea level surpasses marsh elevation. c), f): Model spread at the end of the modeling period in 2100 contrasted with the associated spread of mean sea level projections.
+   :width: 600px
+   :align: center
