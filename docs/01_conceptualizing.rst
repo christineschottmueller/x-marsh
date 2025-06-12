@@ -2,8 +2,11 @@ Model Equation
 =================================================
 In this study, we build upon established frameworks for computational exploratory modeling 
 
-[Bankes, 1993](https://pubsonline.informs.org/doi/epdf/10.1287/opre.41.3.435) ,[Kwakkel, 2017](https://www.sciencedirect.com/science/article/pii/S1364815217301251?via%3Dihub) and dynamic adaptation policy pathways [Haasnoot et al., 2013](https://www.sciencedirect.com/science/article/pii/S095937801200146X?via%3Dihub),
-[Haasnoot et al., 2019](https://iopscience.iop.org/article/10.1088/2515-7620/ab1871). Given the uncertainties surrounding intertidal flat evolution under sea-level rise, we develop a method for designing dynamic policy pathways for coastal climate change adaptation in the Wadden Sea. This includes identifying policy options that promote marsh growth, while generating critical information to support informed decision-making and the prioritization of adaptive strategies. 
+`Bankes, 1993 <https://pubsonline.informs.org/doi/epdf/10.1287/opre.41.3.435>`_,
+`Kwakkel, 2017 <https://www.sciencedirect.com/science/article/pii/S1364815217301251?via%3Dihub>`_,
+and dynamic adaptation policy pathways
+`Haasnoot et al., 2013 <https://www.sciencedirect.com/science/article/pii/S095937801200146X?via%3Dihub>`_,
+`Haasnoot et al., 2019 <https://iopscience.iop.org/article/10.1088/2515-7620/ab1871>`_. Given the uncertainties surrounding intertidal flat evolution under sea-level rise, we develop a method for designing dynamic policy pathways for coastal climate change adaptation in the Wadden Sea. This includes identifying policy options that promote marsh growth, while generating critical information to support informed decision-making and the prioritization of adaptive strategies. 
 The process involves the following steps:
 
 \begin{itemize}
