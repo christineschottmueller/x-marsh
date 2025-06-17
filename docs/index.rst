@@ -8,13 +8,44 @@ Welcome to x-marsh's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
 
-   01_conceptualizing
-   02_indicators
-   03_accretion_vs_slr_ts
-   04_policy_lifespans
-   05_adaptation_pathways
+   chapter_01/01_general_info
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Model Relations R
+   
+   chapter_02/02_outcomes
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Model Outcomes M
+   
+   chapter_03/03_outcomes
+
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Visualizing Critical States
+
+	chapter_04/04_accretion_vs_slr_ts
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Deriving Policy Lifespans
+   
+   chapter_05/05_policy_lifespans
+   
+   
+.. toctree::
+   :maxdepth: 2
+   :caption: Inducing Policy Adaptation Pathways
+   
+   chapter_06/06_adaptation_pathways
+   
+   
 
 Indices and tables
 ==================
