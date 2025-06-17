@@ -16,7 +16,7 @@ Welcome to x-marsh's documentation!
    :maxdepth: 2
    :caption: Model Relations R
    
-   chapter_02/02_outcomes
+   chapter_02/02_model_relations
 
 .. toctree::
    :maxdepth: 2
