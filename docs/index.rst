@@ -41,7 +41,7 @@ Welcome to x-marsh's documentation!
    
 .. toctree::
    :maxdepth: 2
-   :caption: Inducing Policy Adaptation Pathways
+   :caption: Inducing DAPPs
    
    chapter_06/06_adaptation_pathways
    
