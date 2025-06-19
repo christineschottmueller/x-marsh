@@ -6,7 +6,7 @@ body {
 
 /* Background color of the top mobile bar */
 .wy-nav-top {
-  background-color: #19486A; /* Oder dein Wunschfarbton */
+  background-color: #19486A !important;
   color: #FBFBFB;            /* Textfarbe */
 }
 
