@@ -126,3 +126,18 @@ body {
   background: left repeat-y #fcfcfc;
   background-color: #19486A;
 }
+
+/* Code block wrapper */
+.highlight,
+.highlight pre,
+.rst-content .highlight {
+  background: #f8f8f8 !important;  /* or white if you prefer */
+  color: #333; /* default text color */
+  border: none;
+}
+
+/* Inline code */
+code {
+  background-color: #f0f0f0 !important;
+  color: #19486A;  /* match your theme */
+}
