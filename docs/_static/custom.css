@@ -4,6 +4,19 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Hintergrundfarbe der mobilen oberen Leiste */
+.wy-nav-top {
+  background-color: #19486A; /* Oder dein Wunschfarbton */
+  color: #FBFBFB;            /* Textfarbe */
+}
+
+/* Farbe des Textes und Menü-Symbols (drei Streifen) */
+.wy-nav-top i,
+.wy-nav-top a {
+  color: #FBFBFB !important;  
+}
+
+
 /* Menu-band links */
 .wy-menu-vertical a {
   line-height: 25px;
