@@ -66,6 +66,13 @@ body {
   ;
 }
 
+/* Prevent white-on-white when hovering over active sidebar items */
+.wy-menu-vertical li.current a:hover,
+.wy-menu-vertical li.toctree-l2.current > a:hover {
+  background-color: #19486A;  /* Keep the same background */
+  color: #FBFBFB !important;  /* Keep the text white */
+}
+
 .wy_breadcrumbs a {
     color: #79BCFF;
     text-decoration: none; /* Optional */
