@@ -1,10 +1,6 @@
 Model Relation R
 =================================================
-
-Using `data_loader` module
-==========================
-
-Here's how to load your data:
+The module ``data_loader.py`` manages loading the tidal and sea level time series for different RCP's and focus areas.
 
 .. code-block:: python
 
