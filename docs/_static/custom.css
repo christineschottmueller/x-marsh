@@ -15,11 +15,11 @@ body {
 }
 /* CONTENTS Feld */
 .wy-menu-vertical p.caption {
-  color: #06131c;
+  color: #19486A;
   line-height: 32px;
   font-weight: 700;
   text-transform: uppercase;
-  font-size: 85%;
+  font-size: 80%;
   white-space: nowrap;
 }
 /*  Logo */
@@ -78,5 +78,6 @@ body {
 
 
 .wy-body-for-nav {
+  background: left repeat-y #fcfcfc;
   background-color: #19486A;
 }
