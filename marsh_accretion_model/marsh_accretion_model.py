@@ -11,7 +11,6 @@ Contains the core functions for simulating vertical marsh elevation change:
 This file captures the physical processes of marsh accretion and is imported by 
 higher-level scripts for scenario analysis. No file I/O or data loading is done here.
 """
-
 import numpy as np
 import pandas as pd
 from scipy.stats import linregress
@@ -35,11 +34,11 @@ def calculate_initial_dz_dt(initial_year_data, z_init, c_flood, fd, rho_deposit,
     initial_dz_dt = marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr) - 0.75 * (s_subsidence + slr)
     return initial_dz_dt
 
-def marsh_elevation_model(z_init, c_flood, c_flood_nourishment, fd, rho_deposit, s_subsidence, nourishment_frequency, loader=DataLoader, **kwargs):
+def marsh_elevation_model(z_init, c_flood, c_flood_nourishment, fd, rho_deposit, s_subsidence, nourishment_frequency,
+                            tides_per_year,  **kwargs):    
     """
     Calculates yearly marsh elevation and rate of change of elevation.
     """
-    tides_per_year = loader.tides_per_year
     years_list = tides_per_year['year'].unique()
     start_year = years_list[0]
     z_values, dz_dt_values = [], []
