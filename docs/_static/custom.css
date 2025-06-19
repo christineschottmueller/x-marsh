@@ -141,28 +141,33 @@ code {
 }
 
 /* Keywords: import, from */
-.highlight .k, .rst-content .highlight .k {
-    color: #06131C !important;
-    font-weight: bold !important;
+.highlight-ipython3 .k,
+.highlight .k {
+  color: #06131C !important;
+  font-weight: bold !important;
 }
 
 /* Module/package names */
-.highlight .nn, .rst-content .highlight .nn {
-    color: #19486A !important;
+.highlight-ipython3 .nn,
+.highlight .nn {
+  color: #19486A !important;
 }
 
 /* General names */
-.highlight .n, .rst-content .highlight .n {
-    color: #19486A !important;
+.highlight-ipython3 .n,
+.highlight .n {
+  color: #19486A !important;
 }
 
 /* Strings */
-.highlight .s, .rst-content .highlight .s {
-    color: #006400 !important;
+.highlight-ipython3 .s,
+.highlight .s {
+  color: #006400 !important;
 }
 
 /* Comments */
-.highlight .c, .rst-content .highlight .c {
-    color: #777777 !important;
-    font-style: italic !important;
+.highlight-ipython3 .c,
+.highlight .c {
+  color: #777777 !important;
+  font-style: italic !important;
 }
