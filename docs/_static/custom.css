@@ -146,6 +146,12 @@ code {
   color: #06131C !important;
   font-weight: bold !important;
 }
+/* Keywords: import, from */
+.highlight-ipython3 .kn,
+.highlight .kn {
+  color: #06131C;
+  font-weight: bold;
+}
 
 /* Module/package names */
 .highlight-ipython3 .nn,
