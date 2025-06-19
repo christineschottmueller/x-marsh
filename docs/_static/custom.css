@@ -166,6 +166,19 @@ code {
   font-weight: bold;
 }
 
+/* built-in typex and constructor functions  */
+.highlight-ipython3 .nb,
+.highlight .nb {
+  color: #06131C;
+  font-weight: bold;
+}
+.highlight-ipython3 .ow,
+.highlight .ow {
+  color: #06131C;
+  font-weight: bold;
+}
+
+
 /* Module/package names */
 .highlight-ipython3 .nn,
 .highlight .nn {
