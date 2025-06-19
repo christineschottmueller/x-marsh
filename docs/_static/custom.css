@@ -53,7 +53,6 @@ body {
   color: #fcfcfc00;
 }
 /* TOC Farbe SDG 17/ 50% */
-
 .wy-nav-side {
    background-color: #7591A6;
 }
@@ -62,7 +61,7 @@ body {
 .wy-menu-vertical li.current a, .wy-menu-vertical li.toctree-l2.current > a
 {
   background-color: #19486A;
-  border-color: #19486A;
+  border: none !important; 
   color: #06131C;
   ;
 }
