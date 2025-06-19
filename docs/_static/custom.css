@@ -144,13 +144,13 @@ code {
 
 /* Make 'import' and 'from' keywords darker blue */
 .highlight .k {
-    color: #06131C;  /* keyword */
+    color: #06131C !important;   /* keyword */
     font-weight: bold;
 }
 
 /* Make module/package names darker gray or consistent color */
 .highlight .n {
-    color: #19486A;  /* name (e.g. pandas, numpy) */
+    color: #19486A !important;   /* name (e.g. pandas, numpy) */
 }
 
 /* Optionally, adjust strings, comments, etc. */
