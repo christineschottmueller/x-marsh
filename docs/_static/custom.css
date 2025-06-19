@@ -16,7 +16,7 @@ body {
 
 /* Change hover background color for menu links */
 .wy-menu-vertical a:hover {
-  background-color: #B2C2CE
+  background-color: #B2C2CE;
   /*color: #ffffff; optional: ensure text stays visible */
 }
 
