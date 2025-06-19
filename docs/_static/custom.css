@@ -13,6 +13,14 @@ body {
   font-size: 100%;
   color: #FBFBFB;
 }
+
+/* Change hover background color for menu links */
+.wy-menu-vertical a:hover {
+  background-color: #B2C2CE
+  /*color: #ffffff; optional: ensure text stays visible */
+}
+
+
 /* CONTENTS Feld */
 .wy-menu-vertical p.caption {
   color: #19486A;
