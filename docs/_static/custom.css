@@ -62,7 +62,7 @@ body {
 {
   background-color: #19486A;
   border: none !important; 
-  color: #06131C;
+  color: #FBFBFB !important;
   ;
 }
 
@@ -92,7 +92,6 @@ body {
 .wy-nav-content a:visited {
   color: #B7A392;  
 }
-
 
 /* Farbe Mudflat*/
 .wy-nav-content-wrap {
