@@ -57,7 +57,7 @@ body {
    background-color: #7591A6;
 }
 
-
+/* active sidebar items */
 .wy-menu-vertical li.current a, .wy-menu-vertical li.toctree-l2.current > a
 {
   background-color: #19486A;
@@ -66,17 +66,33 @@ body {
   ;
 }
 
-
-.wy_breadcrumbs{
+.wy_breadcrumbs a {
     color: #79BCFF;
-}	
+    text-decoration: none; /* Optional */
+}
 
+.wy_breadcrumbs a:hover {
+    color: #1e90ff; /* Slightly darker blue for hover */
+    text-decoration: underline; /* Optional */
+}
 
 /* Customize background color of content and blank space behind. white*/ 
 .wy-nav-content {
     max-width: 1200px !important;
 	background-color: #FBFBFB;
 }
+
+/* Unvisited links in main content */
+.wy-nav-content a {
+  color: #19486A;  
+  text-decoration: none;  /* Optional: remove underline */
+}
+
+/* Visited links */
+.wy-nav-content a:visited {
+  color: #B7A392;  
+}
+
 
 /* Farbe Mudflat*/
 .wy-nav-content-wrap {
