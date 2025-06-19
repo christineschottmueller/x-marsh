@@ -153,10 +153,24 @@ code {
   font-weight: bold;
 }
 
+/* Keywords: True/ False */
+.highlight-ipython3 .kc,
+.highlight .kc {
+  color: #06131C;
+  font-weight: bold;
+}
+/* metaformat */
+.highlight-ipython3 .mf,
+.highlight .mf {
+  color: #19486A !important;
+  font-weight: bold;
+}
+
 /* Module/package names */
 .highlight-ipython3 .nn,
 .highlight .nn {
   color: #19486A !important;
+  font-weight: normal;
 }
 
 /* General names */
