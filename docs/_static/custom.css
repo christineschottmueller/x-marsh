@@ -127,34 +127,42 @@ body {
   background-color: #19486A;
 }
 
-/* Code block wrapper */
-.highlight,
-.highlight pre,
-.rst-content .highlight {
-  background: #f8f8f8 !important;  /* or white if you prefer */
-  color: #333; /* default text color */
-  border: none;
+/* Background for code blocks */
+.highlight, .highlight pre, .rst-content .highlight {
+  background: #f8f8f8 !important;
+  color: #333 !important;
+  border: none !important;
 }
 
 /* Inline code */
 code {
   background-color: #f0f0f0 !important;
-  color: #19486A;  /* match your theme */
+  color: #19486A !important;
 }
 
-/* Make 'import' and 'from' keywords darker blue */
-.highlight .k,
-.rst-content .highlight .k {
+/* Keywords: import, from */
+.highlight .k, .rst-content .highlight .k {
     color: #06131C !important;
     font-weight: bold !important;
 }
 
-
-/* Make module/package names darker gray or consistent color */
-.highlight .nn {
+/* Module/package names */
+.highlight .nn, .rst-content .highlight .nn {
     color: #19486A !important;
 }
 
-/* Optionally, adjust strings, comments, etc. */
-.highlight .s { color: #006400; }   /* string */
-.highlight .c { color: #777777; font-style: italic; } /* comment */
+/* General names */
+.highlight .n, .rst-content .highlight .n {
+    color: #19486A !important;
+}
+
+/* Strings */
+.highlight .s, .rst-content .highlight .s {
+    color: #006400 !important;
+}
+
+/* Comments */
+.highlight .c, .rst-content .highlight .c {
+    color: #777777 !important;
+    font-style: italic !important;
+}
