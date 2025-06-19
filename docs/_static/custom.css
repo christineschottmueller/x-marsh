@@ -141,3 +141,18 @@ code {
   background-color: #f0f0f0 !important;
   color: #19486A;  /* match your theme */
 }
+
+/* Make 'import' and 'from' keywords darker blue */
+.highlight .k {
+    color: #06131C;  /* keyword */
+    font-weight: bold;
+}
+
+/* Make module/package names darker gray or consistent color */
+.highlight .n {
+    color: #19486A;  /* name (e.g. pandas, numpy) */
+}
+
+/* Optionally, adjust strings, comments, etc. */
+.highlight .s { color: #006400; }   /* string */
+.highlight .c { color: #777777; font-style: italic; } /* comment */
