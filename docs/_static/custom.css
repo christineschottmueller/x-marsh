@@ -143,14 +143,16 @@ code {
 }
 
 /* Make 'import' and 'from' keywords darker blue */
-.highlight .k {
-    color: #06131C !important;   /* keyword */
-    font-weight: bold;
+.highlight .k,
+.rst-content .highlight .k {
+    color: #06131C !important;
+    font-weight: bold !important;
 }
 
+
 /* Make module/package names darker gray or consistent color */
-.highlight .n {
-    color: #19486A !important;   /* name (e.g. pandas, numpy) */
+.highlight .nn {
+    color: #19486A !important;
 }
 
 /* Optionally, adjust strings, comments, etc. */
