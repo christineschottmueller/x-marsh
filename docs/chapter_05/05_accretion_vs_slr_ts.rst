@@ -63,10 +63,10 @@ The **data** used in figure 3 is contained in the folder
 
 Smoothen time-series for plotting
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Apply Savitzky-Golay filter
 
 .. code:: ipython3
 
-    # Apply Savitzky-Golay filter
     window_size = 10  # Window size must be odd
     poly_order = 1
     smoothed_mean_26 = savgol_filter(result_mean_26['dz_dt'], window_size, poly_order)
