@@ -10,8 +10,6 @@ We are now ready to connect the **x_marsh_function** to the EMA Workbench in ord
 Our experiment setup includes 10 parameters in total. Of these, 7 define uncertainties related to environmental conditions and system characteristics outside of the control of decision makers. The remaining 3 parameters are decision levers, representing policy choices. 
 
 .. code:: ipython3
-
-    import os
     from ema_workbench import (Model, CategoricalParameter, ScalarOutcome)
     
 Import wrapper function from x_marsh.py
@@ -29,6 +27,7 @@ Instantiate a model object with the use of ``Model`` object.
     model.outcomes = outcomes
 
 The uncertainties and outcomes are attributes of the ``Model`` object. Here their sets of possible values are specified.
+
 .. code:: ipython3
 
     uncertainties = [
@@ -59,6 +58,7 @@ In the ``x_marsh_function`` we defined outcomes of interest for each function ev
 
 
 .. code:: ipython3
+
 	from ema_workbench import perform_experiments, MultiprocessingEvaluator
 	from ema_workbench.em_framework.samplers import FullFactorialSampler                               
 	from ema_workbench import ema_logging, save_results, load_results   
@@ -66,6 +66,7 @@ In the ``x_marsh_function`` we defined outcomes of interest for each function ev
 Run experiments with sampled scenarios
 
 .. code:: ipython3
+
     with MultiprocessingEvaluator(model, n_processes=-1) as evaluator:
         experiments, outcomes = perform_experiments(model,  scenarios=7776*6, uncertainty_sampling=FullFactorialSampler())
     
