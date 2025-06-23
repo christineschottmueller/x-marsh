@@ -29,7 +29,7 @@ Welcome to x-marsh's documentation!
    :maxdepth: 2
    :caption: Running the EMA-workbench
 
-   chapter_04/04_accretion_vs_slr_ts
+   chapter_04/04_running_the_workbench
  
 
 
