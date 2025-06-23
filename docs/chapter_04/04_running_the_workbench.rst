@@ -1,37 +1,36 @@
 Running the workbench
 =================================================
-A scenario is a single point in the uncertainty space. A policy is a single point in the decision space. An experiment is the combination of one scenario and one policy.
-Both the uncertainty and decision spaces are defined here using the ``CategoricalParameter``, in essence discrete rather than continuous ranges. 
-This choice offers several advantages:
+We are now ready to connect the **x_marsh_function** to the EMA Workbench in order to generate instances of uncertain yet plausible future salt marsh states. Each uncertain function parameter defines a dimension within uncertainty space, while each policy lever defines a corresponding dimension in decision space. The dimensionality of these spaces is determined by the number of uncertain parameters and policy levers specified within the function. An **experiment** is defined as a tuple consisting of one realization from uncertainty space and one from decision space—that is, a specific combination of uncertain factors (X) and policy interventions (L). Each experiment thus represents a single, internally consistent future state of the world. Along each dimension, parameters may take on user-defined values from either a continuous interval or a discrete set, constrained by e.g. physical feasibility or expert judgement. In this study, we use the ``CategoricalParameter`` class for the defintion of discrete sets, discrete representations of continuous parameters. 
 
+ This choice has two main reasons:
 - **Simplicity in interpretation**: Results are easier to analyze and communicate when inputs represent meaningful, discrete conditions, rather than abstract numerical ranges.
 
 - **Efficient experimental design**: Categorical inputs enable a straightforward full factorial design across scenarios and policies, avoiding unnecessary complexity while ensuring coverage of all relevant combinations.
 
-
-- **Scenario-based structure**: Many uncertainties—such as climate scenario, site location, or sea-level rise trajectory—are inherently discrete and defined by externally developed scenarios. Modeling them categorically maintains their integrity.
-
-- **Realistic representation of decisions**: Decision levers like nourishment frequency or sediment concentration are typically selected from a limited set of practical options. Representing them as categorical values reflects how such choices are actually made.
-
-- **Nonlinear system behavior**: The system may exhibit threshold effects or nonlinear responses to changes. Categorical parameters help capture these shifts without implying smooth transitions where none exist.
-
-Our experiment setup includes 10 parameters in total. Of these, 7 define uncertainties related to environmental conditions and system characteristics, such as climate scenario, site location, sea-level rise pathway, initial elevation, subsidence rate, sediment properties, and background sediment concentration. The remaining 3 parameters are decision levers, representing policy choices. These include the frequency of sediment nourishment, the concentration of sediment added during nourishment, and the efficiency of sediment trapping. 
-
+Our experiment setup includes 10 parameters in total. Of these, 7 define uncertainties related to environmental conditions and system characteristics outside of the control of decision makers. The remaining 3 parameters are decision levers, representing policy choices. 
 
 .. code:: ipython3
 
     import os
     from ema_workbench import (Model, CategoricalParameter, ScalarOutcome)
     
-Import wrapper function from marsh_accretion_problem.py
+Import wrapper function from x_marsh.py
 
 .. code:: ipython3
 
-   from marsh_accretion_problem import marsh_accretion_problem
+   from x_marsh import x_marsh_function
+
+Instantiate a model object with the use of ``Model`` object. 
 
 .. code:: ipython3
+	
+    model = Model('marshaccretion', function=x_marsh_function)
+    model.uncertainties = uncertainties
+    model.outcomes = outcomes
 
-    # Define your uncertainties, including RCP and site as categorical
+The uncertainties and outcomes are attributes of the ``Model`` object. Here their sets of possible values are specified.
+.. code:: ipython3
+
     uncertainties = [
         CategoricalParameter('rcp', ['rcp26', 'rcp45', 'rcp85']),
         CategoricalParameter('site', ['S15', 'S33']),
@@ -45,9 +44,10 @@ Import wrapper function from marsh_accretion_problem.py
         CategoricalParameter('c_flood_nourishment', [0, 0.3, 0.5]),
     ]
     
-Define your outcomes
+In the ``x_marsh_function`` we defined outcomes of interest for each function evaluation, each experiment. 
 
 .. code:: ipython3
+
     outcomes = [
         ScalarOutcome('crit_year'),
         ScalarOutcome('growth_total'),
@@ -55,12 +55,10 @@ Define your outcomes
         ScalarOutcome('est_time'),
         ScalarOutcome('est_crit_year')
     ]
-	
-    # Create the model object with your wrapper as the function
-    model = Model('marshaccretion', function=marsh_accretion_problem)
-    model.uncertainties = uncertainties
-    model.outcomes = outcomes
 
+
+
+.. code:: ipython3
 	from ema_workbench import perform_experiments, MultiprocessingEvaluator
 	from ema_workbench.em_framework.samplers import FullFactorialSampler                               
 	from ema_workbench import ema_logging, save_results, load_results   
@@ -72,4 +70,3 @@ Run experiments with sampled scenarios
         experiments, outcomes = perform_experiments(model,  scenarios=7776*6, uncertainty_sampling=FullFactorialSampler())
     
 	
-.. code:: ipython3
