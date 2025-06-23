@@ -31,8 +31,6 @@ Welcome to x-marsh's documentation!
 
    chapter_04/04_running_the_workbench
  
-
-
  
 .. toctree::
    :maxdepth: 2
