@@ -24,26 +24,35 @@ Welcome to x-marsh's documentation!
    
    chapter_03/03_outcomes
 
-   
+  
+.. toctree::
+   :maxdepth: 2
+   :caption: Running the EMA-workbench
+
+   chapter_04/04_accretion_vs_slr_ts
+ 
+
+
+ 
 .. toctree::
    :maxdepth: 2
    :caption: Visualizing Critical States
 
-   chapter_04/04_accretion_vs_slr_ts
+   chapter_05/05_accretion_vs_slr_ts
 
 
 .. toctree::
    :maxdepth: 2
    :caption: Deriving Policy Lifespans
    
-   chapter_05/05_policy_lifespans
+   chapter_06/06_policy_lifespans
    
    
 .. toctree::
    :maxdepth: 2
    :caption: Inducing DAPPs
    
-   chapter_06/06_adaptation_pathways
+   chapter_07/07_adaptation_pathways
    
    
 
