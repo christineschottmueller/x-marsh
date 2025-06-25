@@ -18,7 +18,10 @@ To follow this tutorial and run the provided code examples successfully, please 
        │   └── regional_slr_single_rcp/
        └── your_notebook.ipynb
 
-3. **Run the Jupyter Notebook from within the ``marsh_tutorial/`` folder**.
+3. **Create an output folder** in your tutorial folder and name it ``model_output_M``.
+
+
+4. **Run the Jupyter Notebook from within the ``marsh_tutorial/`` folder**.
 
    This ensures that all relative file paths used in the tutorial code (e.g., loading tidal or SLR data) will resolve correctly.
 
