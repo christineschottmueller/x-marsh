@@ -15,9 +15,10 @@ release = '0.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-'nbsphinx', 'ipykernel', 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',  
-'sphinx.ext.imgmath',  
+'nbsphinx', 'ipykernel', 'sphinx.ext.autodoc', 'sphinx.ext.mathjax'  
 ]
+
+mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
