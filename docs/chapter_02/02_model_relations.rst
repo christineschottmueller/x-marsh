@@ -4,7 +4,9 @@ The core of this data-driven modeling approach is the representation of marsh ac
 
 .. math::
 
-   \frac{dE}{dt} = f(C_{\text{flood}}, \text{SLR})
+	\begin{equation}\label{eqn:timestepping}
+		\frac{dE}{dt} = \sum_{s \in \text{S}} \sum_{T \in TC_{s}} \frac{((H_T + slr_t) - E_{t-1}) \cdot  C_{s,t} \cdot f_{d_s}}{\rho} - \frac{slr}{dt} - \frac{s_{sub}}{dt} 
+	\end{equation}
 
 The module ``data_loader.py`` manages loading the tidal and sea level time series for different RCP's and focus areas.
 
