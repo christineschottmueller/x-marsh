@@ -1,6 +1,6 @@
 Running the workbench
 =================================================
-We are now ready to connect the **x_marsh_function** to the EMA Workbench in order to generate instances of uncertain yet plausible future salt marsh states. Each uncertain function parameter defines a dimension within uncertainty space, while each policy lever defines a corresponding dimension in decision space. The dimensionality of these spaces is determined by the number of uncertain parameters and policy levers specified within the function. An **experiment** is defined as a tuple consisting of one realization from uncertainty space and one from decision space—that is, a specific combination of uncertain factors (X) and policy interventions (L). Each experiment thus represents a single, internally consistent future state of the world. Along each dimension, parameters may take on user-defined values from either a continuous interval or a discrete set, constrained by e.g. physical feasibility or expert judgement. In this study, we use the ``CategoricalParameter`` class for the defintion of discrete sets, discrete representations of continuous parameters. 
+We are now ready to connect the **x_marsh_function** to the EMA Workbench and generate instances of uncertain yet plausible future salt marsh states. Each uncertain function parameter defines a dimension within uncertainty space, while each policy lever defines a corresponding dimension in decision space. The dimensionality of these spaces is determined by the number of uncertain parameters and policy levers specified within the function. An **experiment** is defined as a tuple consisting of one realization from uncertainty space and one from decision space—that is, a specific combination of uncertain factors (X) and policy interventions (L). Each experiment thus represents a single, internally consistent future state of the world. Along each dimension, parameters may take on user-defined values from either a continuous interval or a discrete set, constrained by e.g. physical feasibility or expert judgement. In this study, we use the ``CategoricalParameter`` class for the defintion of discrete sets, discrete representations of continuous parameters. 
 
  This choice has two main reasons:
 - **Simplicity in interpretation**: Results are easier to analyze and communicate when inputs represent meaningful, discrete conditions, rather than abstract numerical ranges.
@@ -26,7 +26,7 @@ Instantiate a model object with the use of ``Model`` object.
     model.uncertainties = uncertainties
     model.outcomes = outcomes
 
-The uncertainties and outcomes are attributes of the ``Model`` object. Here their sets of possible values are specified.
+The uncertainties and outcomes are attributes of the ``Model`` object. Here the sets of their possible values are specified.
 
 .. code:: ipython3
 
@@ -63,7 +63,7 @@ In the ``x_marsh_function`` we defined outcomes of interest for each function ev
 	from ema_workbench.em_framework.samplers import FullFactorialSampler                               
 	from ema_workbench import ema_logging, save_results, load_results   
      
-Run experiments with sampled scenarios
+Run the experiments using full factorial sampling design. Thereby ensure that all parameter combinations are represented in the output.
 
 .. code:: ipython3
 

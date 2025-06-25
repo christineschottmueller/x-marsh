@@ -15,7 +15,8 @@ release = '0.1.0'
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
 extensions = [
-'nbsphinx', 'ipykernel', 'sphinx.ext.autodoc',
+'nbsphinx', 'ipykernel', 'sphinx.ext.autodoc', 'sphinx.ext.mathjax',  
+'sphinx.ext.imgmath',  
 ]
 
 templates_path = ['_templates']
