@@ -48,7 +48,26 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
         self.data = pd.read_csv(slr_path)       
 
 
+.. code-block:: python
 
+    """
+    marsh_accretion_model.py
+
+    Contains the core functions for simulating vertical marsh elevation change:
+
+    - marsh_elevation_rate: computes yearly elevation change based on sediment inputs.
+    ...
+    """
+    
+    import numpy as np
+    import pandas as pd
+    from scipy.stats import linregress
+
+    def marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr, **kwargs):
+        ...
+		
+		
+		
 .. code-block::python
 
 	"""
