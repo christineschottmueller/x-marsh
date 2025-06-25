@@ -152,6 +152,12 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 
 		return z_values, years_list, dz_dt_values
 
+
+
+Helper function needed to calculate the Decadal-Scale Normalized Slope
+
+.. code-block::python
+
 	def lineregress(x, y):
 		if len(x) != len(y):
 			raise ValueError("x and y must have the same length")
