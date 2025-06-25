@@ -4,6 +4,12 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+
+.rst-content .toctree-wrapper > p.caption, h1, h2, h3, h4, h5, h6, legend {
+  font-weight: 700;
+  font-family: "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
 /* Mobile top bar */
 .wy-nav-top {
   background-color: #19486A !important;
