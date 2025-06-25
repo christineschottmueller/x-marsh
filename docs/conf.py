@@ -18,7 +18,16 @@ extensions = [
 'nbsphinx', 'ipykernel', 'sphinx.ext.autodoc', 'sphinx.ext.mathjax'  
 ]
 
+# enable latex and equation numbering in .rst
 mathjax_path = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+
+mathjax3_config = {
+    "tex": {
+        "tags": "all",  
+        "useLabelIds": True
+    }
+}
+
 
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
