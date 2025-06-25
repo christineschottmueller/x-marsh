@@ -2,7 +2,9 @@ Model Relation R
 =================================================
 The core of this data-driven modeling approach is the representation of marsh accretion dynamics through a parametrisized equation linking main system components. Uncertainty in natural components and the effects of selected policies are represented through the sets the parameter values are sampled from.
 
+.. math::
 
+   \frac{dE}{dt} = f(C_{\text{flood}}, \text{SLR})
 
 The module ``data_loader.py`` manages loading the tidal and sea level time series for different RCP's and focus areas.
 
