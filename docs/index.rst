@@ -11,6 +11,8 @@ Welcome to x-marsh's documentation!
    :caption: Contents
    
    chapter_01/01_general_info
+   chapter_01/01_01_getting_started
+  
    
 .. toctree::
    :maxdepth: 2

@@ -1,5 +1,5 @@
 Getting Started: Folder Setup
-=============================
+======================================================
 
 To follow this tutorial and run the provided code examples successfully, please follow these steps:
 
