@@ -5,7 +5,7 @@ To follow this tutorial and run the provided code examples successfully, please 
 
 1. **Create a tutorial folder** on your computer (e.g., ``marsh_tutorial/``).
 2. **Download the model input data here**:
-   - `model_input_X_L.zip <https://github.com/christineschottmueller/x-marsh/releases/download/v1.0-data/model_input_X_L.zip>`_
+    `model_input_X_L.zip <https://github.com/christineschottmueller/x-marsh/releases/download/v1.0-data/model_input_X_L.zip>`_
    - Extract the archive so that the folder ``model_input_X_L`` is located inside your tutorial folder.
 
    Your directory should now look like this:
@@ -18,8 +18,9 @@ To follow this tutorial and run the provided code examples successfully, please 
        │   └── regional_slr_single_rcp/
        └── your_notebook.ipynb
 
-3. **Create an output folder** in your tutorial folder and name it ``model_output_M``.
 
+3. **Create an output folder** in your tutorial folder and name it ``model_output_M``.
+  
 
 4. **Run the Jupyter Notebook from within the ``marsh_tutorial/`` folder**.
 
