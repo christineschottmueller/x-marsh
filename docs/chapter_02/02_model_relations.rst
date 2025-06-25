@@ -68,7 +68,7 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 		
 		
 		
-.. code-block::python
+.. code-block:: python
 
 	"""
 	marsh_accretion_model.py
