@@ -73,6 +73,7 @@ Run the experiments using full factorial sampling design. Thereby ensure that al
         experiments, outcomes = perform_experiments(model,  scenarios=7776*6, uncertainty_sampling=FullFactorialSampler())
     
 Store the results in the folder ``model_output_M`` in your ``marsh_tutorial/`` folder.
+
 .. code:: ipython3
 
     results=experiments,outcomes
