@@ -72,4 +72,9 @@ Run the experiments using full factorial sampling design. Thereby ensure that al
     with MultiprocessingEvaluator(model, n_processes=-1) as evaluator:
         experiments, outcomes = perform_experiments(model,  scenarios=7776*6, uncertainty_sampling=FullFactorialSampler())
     
+Store the results in the folder ``model_output_M`` in your ``marsh_tutorial/`` folder.
+.. code:: ipython3
+
+    results=experiments,outcomes
+    save_results(results, 'model_output_M\model_output_raw.tar.gz')
 	
