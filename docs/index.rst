@@ -32,7 +32,7 @@ Welcome to x-marsh's documentation!
    :caption: Running the EMA-workbench
 
    chapter_04/04_running_the_workbench
-   chapter_04/04_clean_output_M_raw
+   chapter_04/04_clean_output_m_raw
  
  
 .. toctree::
