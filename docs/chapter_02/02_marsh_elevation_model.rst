@@ -49,7 +49,7 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 
 
 
-marsh_accretion_model
+The Marsh Accretion Model
 ^^^^^^^^^^^^^^^^^^^^^
 Here we provide the core functions for simulating vertical marsh elevation change. ``marsh_elevation_rate`` is a straightforward computational implementation
 of the equation above for computing yearly elevation change. As plant characteristics like height and canopy structure vary with their growth phase, we apply seasonal 
