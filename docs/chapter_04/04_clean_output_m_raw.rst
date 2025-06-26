@@ -100,7 +100,7 @@ physical implausibility, as described above:
 +-------------------+---------------+
 
 
-1. Define filter code
+Define filter code
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
@@ -132,7 +132,7 @@ physical implausibility, as described above:
         mask_III = df_II[['c_flood_nourishment', 'nourishment_frequency']].apply(tuple, axis=1).isin(filter_III)
         return df_II[~mask_III]
 
-2. Load dataset
+Load dataset
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
@@ -143,7 +143,7 @@ physical implausibility, as described above:
     outcomes = pd.DataFrame(outcomes)
     out_raw=pd.concat([experiments, outcomes], axis = 1)
 
-3. Apply filter and store filtered dataset
+Apply filter and store filtered dataset
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
