@@ -1,5 +1,5 @@
-Simulation model and outcomes M = R(X, L)
-=================================================
+Simulation model and outcomes M 
+================================
 
 The dynamic process modeled by the marsh_elevation_model function generates multiple elevation trajectories under varying environmental inputs, such as sea level rise and 
 sediment dynamics. Each trajectory is evaluated using six outcome metrics (M) that capture timing of threshold exceedance, growth trends, and total system change—providing 
