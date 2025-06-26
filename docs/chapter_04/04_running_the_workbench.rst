@@ -9,6 +9,9 @@ We are now ready to connect the **x_marsh_function** to the EMA Workbench and ge
 
 Our experiment setup includes 10 parameters in total. Of these, 7 define uncertainties related to environmental conditions and system characteristics outside of the control of decision makers. The remaining 3 parameters are decision levers, representing policy choices. 
 
+
+
+
 .. code:: ipython3
     from ema_workbench import (Model, CategoricalParameter, ScalarOutcome)
     
@@ -51,7 +54,6 @@ In the ``x_marsh_function`` we defined outcomes of interest for each function ev
         ScalarOutcome('crit_year'),
         ScalarOutcome('growth_total'),
         ScalarOutcome('slope_norm_10'),
-        ScalarOutcome('est_time'),
         ScalarOutcome('est_crit_year')
     ]
 

@@ -1,15 +1,71 @@
 Simulation model and outcomes M = R(X, L)
 =================================================
 
-The dynamic process modeled ``marsh_elevation_model`` function produces multiple accretion trajectories based on input parameters that represent different environmental conditions. Each trajectory is evaluated using outcome indicators—single-value metrics (M) that summarize key aspects of system dynamics. To capture timing, rates of change toward critical thresholds, and overall system shifts, we define six outcome metrics as follows:
+The dynamic process modeled by the marsh_elevation_model function generates multiple elevation trajectories under varying environmental inputs, such as sea level rise and 
+sediment dynamics. Each trajectory is evaluated using six outcome metrics (M) that capture timing of threshold exceedance, growth trends, and total system change—providing 
+a basis for scenario analysis and decision support. The metrics are defined as follows
 
-"""
-Evaluates marsh elevation trajectories under selected sea level rise scenarios and sediment dynamics.
+**Total Accretion** quantifies the cumulative sediment accretion for every modeled state, calculated as the sum of elevation changes over the modeling period:
 
-Calculates critical marsh failure timing and growth trends using tidal and nourishment inputs.
-Returns key outcomes for scenario analysis and decision support.
-"""
+.. math ::
 
+	\begin{equation}
+	\text{acc}_{\Sigma} := \sum_t \frac{d\text{E}}{dt}, \quad t \in \{2041, 2042, \dots, 2100\}.
+	\end{equation}
+
+If sea levels constantly rise faster than marshes can accrete, the marsh platform fails to keep pace with inundation, resulting in prolonged flooding, stress-induced vegetation mortality, 
+loss of vegetative cover, and ultimately, the conversion of marshes into open water. In our model, the first year within the modeling period when sea level surpasses 
+marsh elevation is called the **Critical Year**, defined as :
+
+.. math ::
+
+	\begin{equation}\label{eqn: critical_year}
+	c_y = \min\{t \mid E_t < msl_t\}, \text{ or } c_y = 2101 \text{ if no such year exists.}
+	\end{equation}
+	
+An experiment is classified as *Critical* for the critical year occuring before the end of the modeling period in 2100.
+
+To enable a more detailed assessment of system stability, the model calculates the **Decadal-Scale Normalized Slope**, which examines normalized elevation differences over consecutive 10-year periods. The normalized differences are calculated as:
+
+.. math ::
+
+	\begin{equation}
+	D_{N_t} := \frac{E_t - msl_t}{E_{t_0} - msl_{t_0}}, \quad t \in \{2041, \dots, 2100\}.
+	\end{equation}
+	
+A linear regression is applied to the last ten normalized differences prior to either the Critical Year or the end of the modeling period, yielding:
+
+.. math ::
+
+	\begin{equation}\label{eqn:linreq}
+	S_{N,10} := \frac{\sum_{k=t-9}^t (D_{N_k} - \bar{D}_N)(k - \bar{k})}{\sum_{k=t-9}^t (k - \bar{k})^2}, \quad 
+	t = 
+	\begin{cases} 
+		c_y & \text{if } c_y \leq 2100, \\
+		2100 & \text{if } c_y > 2100.
+	\end{cases}
+	\end{equation}	
+
+The normalized differences provide a distance measure between mean sea level and surface elevation that changes on average with a rate defined by Decadal-Scale Normalized Slope.  The approximated time required for this distance to approach zero is defined as the **Estimated Time**:
+
+.. math ::
+	\begin{equation}\label{eqn:est_time}
+	\text{est}_{\text{time}} := \frac{|D_{N_t}|}{S_{N,10}}, \quad 
+	t = 
+	\begin{cases} 
+		c_y & \text{if } c_y \leq 2100, \\
+		2100 & \text{if } c_y > 2100.
+	\end{cases}
+	\end{equation}
+	
+	
+This metric assumes monotonic system dynamics and relatively stable input conditions, providing a coarse yet insightful measure of temporal proximity to critical thresholds for all modeled states. 
+Those, for which the critical year ($c_y$) is greater than 2100, the **Estimated Critical Year** is used as a criterion for the assignment to classes reflecting marsh vulnerability to drowning:
+.. math ::
+
+	\text{est}_{CY}:= c_y + \text{est}_{\text{time}}
+
+ is used as a criterion for the assignment to classes reflecting marsh vulnerability to drowning.
 .. code:: ipython3
 
 	from marsh_accretion_model import marsh_elevation_model
