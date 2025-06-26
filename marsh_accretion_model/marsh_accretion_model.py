@@ -6,14 +6,12 @@ Contains the core functions for simulating vertical marsh elevation change:
 - marsh_elevation_rate: computes yearly elevation change based on sediment inputs.
 - calculate_initial_dz_dt: estimates initial elevation change.
 - marsh_elevation_model: runs the full simulation over time.
-- lineregress: summarizes elevation trends via linear regression.
 
 This file captures the physical processes of marsh accretion and is imported by 
 higher-level scripts for scenario analysis. No file I/O or data loading is done here.
 """
 import numpy as np
 import pandas as pd
-from scipy.stats import linregress
 
 def marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr, **kwargs):
     """
@@ -98,22 +96,3 @@ def marsh_elevation_model(z_init, c_flood, c_flood_nourishment, fd, rho_deposit,
             dz_dt_values.append(dz_dt)
 
     return z_values, years_list, dz_dt_values
-
-def lineregress(x, y):
-    if len(x) != len(y):
-        raise ValueError("x and y must have the same length")
-    
-    # Convert inputs to numpy arrays for ease of computation
-    x = np.array(x)
-    y = np.array(y)
-
-    x_mean = np.mean(x)
-    y_mean = np.mean(y)
-
-    cov_xy = np.sum((x - x_mean) * (y - y_mean))
-    var_x = np.sum((x - x_mean) ** 2)
-
-    slope = cov_xy / var_x
-    
-    return slope
-    

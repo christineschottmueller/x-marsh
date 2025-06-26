@@ -57,7 +57,6 @@ weights to the sediment trapping efficiency ``fd``. The following cases are impl
 
 .. math ::
 
-	
 	f_{d_s} = f_d \cdot \begin{cases} 
 	0.5 & \text{if } s \text{ is spring}, \\
 	1   & \text{if } s \text{ is summer}, \\
@@ -105,9 +104,9 @@ dynamics and adjusting for subsidenceand for sea level rise in constraining grow
 	
 implements the nourishment policy conditioned on the amount and frequency of nourishment, 
 
-.. math ::
+.. math::
 
-	C_{s,t} = 
+	C_{s,t} =
 	\begin{cases}
 	C_s + C_{s,\mathcal{N}} & \text{if } t \text{ is a nourishment year,} \\
 	C_s & \text{otherwise.}

@@ -5,13 +5,13 @@ Calculates critical marsh failure timing and growth trends using tidal and nouri
 Returns key outcomes for scenario analysis and decision support.
 """
 
-from marsh_accretion_model import marsh_elevation_model, lineregress  # core model functions
+from marsh_accretion_model import marsh_elevation_model
+from helper_function import lineregress  
 from data_loader import DataLoader
 import numpy as np
 import pandas as pd
-from scipy.stats import linregress
 
-def marsh_accretion_problem(slr_select, z_init, c_flood, fd, rho_deposit, s_subsidence, 
+def x_marsh_function(slr_select, z_init, c_flood, fd, rho_deposit, s_subsidence, 
                               nourishment_frequency, c_flood_nourishment, rcp, site, loader=None, **kwargs):
 
     """
