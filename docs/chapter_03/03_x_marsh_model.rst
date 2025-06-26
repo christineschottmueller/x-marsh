@@ -61,11 +61,11 @@ The normalized differences provide a distance measure between mean sea level and
 	
 This metric assumes monotonic system dynamics and relatively stable input conditions, providing a coarse yet insightful measure of temporal proximity to critical thresholds for all modeled states. 
 Those, for which the critical year ($c_y$) is greater than 2100, the **Estimated Critical Year** is used as a criterion for the assignment to classes reflecting marsh vulnerability to drowning:
+
 .. math ::
 
 	\text{est}_{CY}:= c_y + \text{est}_{\text{time}}
 
- is used as a criterion for the assignment to classes reflecting marsh vulnerability to drowning.
 .. code:: ipython3
 
 	from marsh_accretion_model import marsh_elevation_model
