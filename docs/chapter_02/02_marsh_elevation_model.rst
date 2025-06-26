@@ -57,14 +57,14 @@ weights to the sediment trapping efficiency ``fd``. The following cases are impl
 
 .. math ::
 
-	\[
-f_{d_s} = f_d \cdot \begin{cases} 
-0.5 & \text{if } s \text{ is spring}, \\
-1   & \text{if } s \text{ is summer}, \\
-0.6 & \text{if } s \text{ is autumn}, \\
-0.2 & \text{otherwise.}
-\end{cases}
-	\]
+	
+	f_{d_s} = f_d \cdot \begin{cases} 
+	0.5 & \text{if } s \text{ is spring}, \\
+	1   & \text{if } s \text{ is summer}, \\
+	0.6 & \text{if } s \text{ is autumn}, \\
+	0.2 & \text{otherwise.}
+	\end{cases}
+	
 
 
 Since we are using time-series inputs (sea level rise and tidal data), it's important that changes 
@@ -101,30 +101,29 @@ dynamics and adjusting for subsidenceand for sea level rise in constraining grow
 
 .. math ::
 
-	\[ \frac{dE}{dt}  = - \frac{slr}{dt} - \frac{s_{sub}}{dt} \quad  \text{for } (H_T + \text{slr}_t) - E_{t-1} < 0
-	\]
-
+	\frac{dE}{dt}  = - \frac{slr}{dt} - \frac{s_{sub}}{dt} \quad  \text{for } (H_T + \text{slr}_t) - E_{t-1} < 0
+	
 implements the nourishment policy conditioned on the amount and frequency of nourishment, 
 
 .. math ::
 
-	\[C_{s,t} = 
+	C_{s,t} = 
 	\begin{cases}
 	C_s + C_{s,\mathcal{N}} & \text{if } t \text{ is a nourishment year,} \\
 	C_s & \text{otherwise.}
 	\end{cases}
-	\]
+	
 
 while considering the decreasing effect of nourishment concentration in autumn and winter by
 
 .. math ::
 
-	\[C_{s,\mathcal{N}} = C_{\mathcal{N}}\cdot \begin{cases} 
+	C_{s,\mathcal{N}} = C_{\mathcal{N}}\cdot \begin{cases} 
 	0.6 & \text{if } s \text{ is autumn}, \\
 	0.0   & \text{if } s \text{ is winter}, \\
 	1 & \text{otherwise.}
 	\end{cases}
-	\]
+	
 
 
 .. code-block:: python
