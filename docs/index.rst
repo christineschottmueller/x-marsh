@@ -18,13 +18,13 @@ Welcome to x-marsh's documentation!
    :maxdepth: 2
    :caption: Model Relations R
    
-   chapter_02/02_model_relations
-
+   chapter_02/02_marsh_elevation_model
+   
 .. toctree::
    :maxdepth: 2
    :caption: Model Outcomes M
    
-   chapter_03/03_outcomes
+    chapter_03/03_x_marsh_model
 
   
 .. toctree::
