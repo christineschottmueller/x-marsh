@@ -66,9 +66,20 @@ ensure the physical plausibility of modeled scenarios across the
 elevation gradient.
 
 The following combinations of parameters are excluded due to their
-physical implausibility, as described above: \| Elevation \| Depositing
-fraction \| \|:—————————-:\|:—————————–:\| \| 0.4 \| 0.6, 0.8 \| \| 0.7
-\| 0.2, 0.8 \| \| 1.2 \| 0.2 \| \| 1.7 \| 0.2 \|
+physical implausibility, as described above: 
+
++------------+------------------+
+| Elevation  | Depositing frac. |
++============+==================+
+| 0.4        | 0.6, 0.8         |
++------------+------------------+
+| 0.7        | 0.2, 0.8         |
++------------+------------------+
+| 1.2        | 0.2              |
++------------+------------------+
+| 1.7        | 0.2              |
++------------+------------------+
+
 
 III Exclusion of Cases with Nourishment Frequency but No Input
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -78,9 +89,16 @@ Cases with a non-zero nourishment frequency but zero nourishment amount
 events without actual material added—an implausible scenario.
 
 The following combinations of parameters are excluded due to their
-physical implausibility, as described above: \| N. concentration \| N.
-frequency \| \|:—————————-:\|:—————————–:\| \| 0.0 \| 5 \| \| 0.0 \|10
-\|
+physical implausibility, as described above:
+
++-------------------+---------------+
+| N. concentration  | N. frequency  |
++===================+===============+
+| 0.0               | 5             |
++-------------------+---------------+
+| 0.0               | 10            |
++-------------------+---------------+
+
 
 1. Define filter code
 ~~~~~~~~~~~~~~~~~~~~~~~~
