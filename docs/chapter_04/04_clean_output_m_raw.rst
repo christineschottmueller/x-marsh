@@ -16,7 +16,7 @@ these non-viable scenarios must be systematically identified and
 excluded from the dataset.
 
 I Exclusion of Cases with High Nourishment Frequency and Volume but Low Dry Bulk Density
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Sand nourishments are known to elevate the concentration of suspended
 mineral sediments in the water column, thereby promoting mineral
@@ -43,7 +43,7 @@ physical implausibility, as described above:
 +-----------------------+------------------------+---------------------+
 
 II Exclusion of Cases with Implausible Sediment Deposition Fractions and Vegetation States
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 The parameter :math:`f_d` represents the fraction of sediment retained
 and reflects both vegetation-mediated trapping and management
@@ -71,7 +71,7 @@ fraction \| \|:—————————-:\|:—————————–:\|
 \| 0.2, 0.8 \| \| 1.2 \| 0.2 \| \| 1.7 \| 0.2 \|
 
 III Exclusion of Cases with Nourishment Frequency but No Input
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Cases with a non-zero nourishment frequency but zero nourishment amount
 (:math:`C_{\mathcal{N}} = 0`) are excluded, as they imply sediment input
@@ -83,7 +83,7 @@ frequency \| \|:—————————-:\|:—————————–:\
 \|
 
 1. Define filter code
-^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
 
@@ -115,7 +115,7 @@ frequency \| \|:—————————-:\|:—————————–:\
         return df_II[~mask_III]
 
 2. Load dataset
-^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
 
@@ -126,7 +126,7 @@ frequency \| \|:—————————-:\|:—————————–:\
     out_raw=pd.concat([experiments, outcomes], axis = 1)
 
 3. Apply filter and store filtered dataset
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. code:: ipython3
 
