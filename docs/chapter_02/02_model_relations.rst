@@ -48,45 +48,30 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
         self.data = pd.read_csv(slr_path)       
 
 
+
+marsh_accretion_model
+^^^^^^^^^^^^^^^^^^^^^
+Here we provide the core functions for simulating vertical marsh elevation change. ``marsh_elevation_rate`` is a straightforward computational implementation
+of the equation above for computing yearly elevation change. As plant characteristics like height and canopy structure vary with their growth phase, we apply seasonal 
+weights to the sediment trapping efficiency ``fd``. The following cases are implemented in our calculations.
+
+.. math ::
+
+\[
+f_{d_s} = f_d \cdot \begin{cases} 
+0.5 & \text{if } s \text{ is spring}, \\
+1   & \text{if } s \text{ is summer}, \\
+0.6 & \text{if } s \text{ is autumn}, \\
+0.2 & \text{otherwise.}
+\end{cases}
+\]
+
+
+Since we are using time-series inputs (sea level rise and tidal data), it's important that changes 
+are correctly assigned to the corresponding year. We use the first year’s data, here 2041, to compute the elevation change over that year, anchoring the model to the pre-2041 
+state as the baseline. This setup ensures that forward projections are properly aligned in time. ``calculate_initial_dz_dt`` performs the computation for the first year of the modeling period.
+
 .. code-block:: python
-
-    """
-    marsh_accretion_model.py
-
-    Contains the core functions for simulating vertical marsh elevation change:
-
-    - marsh_elevation_rate: computes yearly elevation change based on sediment inputs.
-    ...
-    """
-    
-    import numpy as np
-    import pandas as pd
-    from scipy.stats import linregress
-
-    def marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr, **kwargs):
-        ...
-		
-		
-		
-.. code-block:: python
-
-	"""
-	marsh_accretion_model.py
-
-	Contains the core functions for simulating vertical marsh elevation change:
-
-	- marsh_elevation_rate: computes yearly elevation change based on sediment inputs.
-	- calculate_initial_dz_dt: estimates initial elevation change.
-	- marsh_elevation_model: runs the full simulation over time.
-	- lineregress: summarizes elevation trends via linear regression.
-
-	This file captures the physical processes of marsh accretion and is imported by 
-	higher-level scripts for scenario analysis. No file I/O or data loading is done here.
-	"""
-	
-	import numpy as np
-	import pandas as pd
-	from scipy.stats import linregress
 
 	def marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr, **kwargs):
 		"""
@@ -95,6 +80,10 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 		seasonal_deposit = fd * sum(n_events[i] * c_flood * (h_HW[i] + slr - z_init) if (h_HW[i] + slr - z_init) > 0 else 0 for i in range(len(n_events)))  
 		dz_dt = (seasonal_deposit / rho_deposit) - (s_subsidence + slr) * 0.25  # Adjusted for season
 		return dz_dt
+ 
+
+
+.. code-block:: python
 
 	def calculate_initial_dz_dt(initial_year_data, z_init, c_flood, fd, rho_deposit, s_subsidence, **kwargs):
 		"""
@@ -107,11 +96,42 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 		initial_dz_dt = marsh_elevation_rate(z_init, h_HW, n_events, c_flood, fd, rho_deposit, s_subsidence, slr) - 0.75 * (s_subsidence + slr)
 		return initial_dz_dt
 
+Finally, the function ``marsh_elevation_model`` runs the full simulation over the whole modeling period. It simulates yearly marsh elevation change by aggregating seasonal sedimentation 
+dynamics and adjusting for subsidenceand for sea level rise in constraining growth on the presence of a water column above ground: 
+
+.. math ::
+
+\[ \frac{dE}{dt}  = - \frac{slr}{dt} - \frac{s_{sub}}{dt} \quad  \text{for } (H_T + \text{slr}_t) - E_{t-1} < 0
+\]
+
+implements the nourishment policy conditioned on the amount and frequency of nourishment, 
+
+.. math ::
+
+\[C_{s,t} = 
+\begin{cases}
+C_s + C_{s,\mathcal{N}} & \text{if } t \text{ is a nourishment year,} \\
+C_s & \text{otherwise.}
+\end{cases}
+\]
+
+while considering the decreasing effect of nourishment concentration in autumn and winter by
+
+.. math ::
+
+\[C_{s,\mathcal{N}} = C_{\mathcal{N}}\cdot \begin{cases} 
+0.6 & \text{if } s \text{ is autumn}, \\
+0.0   & \text{if } s \text{ is winter}, \\
+1 & \text{otherwise.}
+\end{cases}
+\]
+
+
+.. code-block:: python
+
 	def marsh_elevation_model(z_init, c_flood, c_flood_nourishment, fd, rho_deposit, s_subsidence, nourishment_frequency,
 								tides_per_year,  **kwargs):    
-		"""
-		Calculates yearly marsh elevation and rate of change of elevation.
-		"""
+		
 		years_list = tides_per_year['year'].unique()
 		start_year = years_list[0]
 		z_values, dz_dt_values = [], []
@@ -171,27 +191,3 @@ The module ``data_loader.py`` manages loading the tidal and sea level time serie
 				dz_dt_values.append(dz_dt)
 
 		return z_values, years_list, dz_dt_values
-
-
-
-Helper function needed to calculate the Decadal-Scale Normalized Slope
-
-.. code-block::python
-
-	def lineregress(x, y):
-		if len(x) != len(y):
-			raise ValueError("x and y must have the same length")
-		
-		# Convert inputs to numpy arrays for ease of computation
-		x = np.array(x)
-		y = np.array(y)
-
-		x_mean = np.mean(x)
-		y_mean = np.mean(y)
-
-		cov_xy = np.sum((x - x_mean) * (y - y_mean))
-		var_x = np.sum((x - x_mean) ** 2)
-
-		slope = cov_xy / var_x
-		
-		return slope
